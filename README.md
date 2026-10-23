@@ -15,7 +15,7 @@ O Nexora é uma personalização do Batocera 43 para computadores x86-64, com in
 
 ## Baixar a imagem
 
-A imagem pronta para gravação está disponível no [site oficial do Nexora](https://nexora-download-oficial.marcianascimen658034.chatgpt.site/).
+A imagem pronta para gravação está disponível no [site oficial do Nexora](https://nexora-download-oficial.vercel.app/).
 
 ## Instalação básica
 
