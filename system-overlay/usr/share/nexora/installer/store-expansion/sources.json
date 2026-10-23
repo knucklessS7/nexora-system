@@ -1,0 +1,1862 @@
+[
+  {
+    "id": "com.discordapp.Discord",
+    "metadata": "https://flathub.org/api/v2/appstream/com.discordapp.Discord",
+    "icon": "https://dl.flathub.org/media/com/discordapp/Discord/54df1825f8e41c063a8e94978db804df/icons/128x128/com.discordapp.Discord.png",
+    "error": null
+  },
+  {
+    "id": "org.videolan.VLC",
+    "metadata": "https://flathub.org/api/v2/appstream/org.videolan.VLC",
+    "icon": "https://dl.flathub.org/media/org/videolan/VLC/34e7c2b6a026c5c290606225a84582d3/icons/128x128/org.videolan.VLC.png",
+    "error": null
+  },
+  {
+    "id": "com.github.tchx84.Flatseal",
+    "metadata": "https://flathub.org/api/v2/appstream/com.github.tchx84.Flatseal",
+    "icon": "https://dl.flathub.org/media/com/github/tchx84.Flatseal/462bde383c024a52b3132ae3df79704a/icons/128x128/com.github.tchx84.Flatseal.png",
+    "error": null
+  },
+  {
+    "id": "org.chromium.Chromium",
+    "metadata": "https://flathub.org/api/v2/appstream/org.chromium.Chromium",
+    "icon": "https://dl.flathub.org/media/org/chromium/Chromium/f7ea274f83f1b61455f300ecf1c01ec2/icons/128x128/org.chromium.Chromium.png",
+    "error": null
+  },
+  {
+    "id": "org.vinegarhq.Sober",
+    "metadata": "https://flathub.org/api/v2/appstream/org.vinegarhq.Sober",
+    "icon": "https://dl.flathub.org/media/org/vinegarhq/Sober/efc7e405d3a366657e27e4d8bcbfe228/icons/128x128/org.vinegarhq.Sober.png",
+    "error": null
+  },
+  {
+    "id": "org.mozilla.firefox",
+    "metadata": "https://flathub.org/api/v2/appstream/org.mozilla.firefox",
+    "icon": "https://dl.flathub.org/media/icons/128x128/org.mozilla.firefox.png",
+    "error": null
+  },
+  {
+    "id": "com.google.Chrome",
+    "metadata": "https://flathub.org/api/v2/appstream/com.google.Chrome",
+    "icon": "https://dl.flathub.org/media/com/google/Chrome/785d800da17ddced0b50095aa92e6158/icons/128x128/com.google.Chrome.png",
+    "error": null
+  },
+  {
+    "id": "com.brave.Browser",
+    "metadata": "https://flathub.org/api/v2/appstream/com.brave.Browser",
+    "icon": "https://dl.flathub.org/media/com/brave/Browser/d4c02755d824e6bc979e40893db8a62c/icons/128x128/com.brave.Browser.png",
+    "error": null
+  },
+  {
+    "id": "com.usebottles.bottles",
+    "metadata": "https://flathub.org/api/v2/appstream/com.usebottles.bottles",
+    "icon": "https://dl.flathub.org/media/com/usebottles/bottles/9d262585bbb7e779072f16bec4824a7e/icons/128x128/com.usebottles.bottles.png",
+    "error": null
+  },
+  {
+    "id": "com.spotify.Client",
+    "metadata": "https://flathub.org/api/v2/appstream/com.spotify.Client",
+    "icon": "https://dl.flathub.org/media/com/spotify/Client/2be38d678bbcc0e04cec0c19c60a80fe/icons/128x128/com.spotify.Client.png",
+    "error": null
+  },
+  {
+    "id": "com.valvesoftware.Steam",
+    "metadata": "https://flathub.org/api/v2/appstream/com.valvesoftware.Steam",
+    "icon": "https://dl.flathub.org/media/com/valvesoftware/Steam/71bd4338705ac5f74c133bfbaacaa3d8/icons/128x128/com.valvesoftware.Steam.png",
+    "error": null
+  },
+  {
+    "id": "com.heroicgameslauncher.hgl",
+    "metadata": "https://flathub.org/api/v2/appstream/com.heroicgameslauncher.hgl",
+    "icon": "https://dl.flathub.org/media/com/heroicgameslauncher/hgl/d6d41679a8e80808f6cf60bb082b9f37/icons/128x128/com.heroicgameslauncher.hgl.png",
+    "error": null
+  },
+  {
+    "id": "com.obsproject.Studio",
+    "metadata": "https://flathub.org/api/v2/appstream/com.obsproject.Studio",
+    "icon": "https://dl.flathub.org/media/com/obsproject/Studio/b24d8f7f7f9672e48342e70759b01e5e/icons/128x128/com.obsproject.Studio.png",
+    "error": null
+  },
+  {
+    "id": "org.telegram.desktop",
+    "metadata": "https://flathub.org/api/v2/appstream/org.telegram.desktop",
+    "icon": "https://dl.flathub.org/media/org/telegram/desktop/0477faef98bba31f7de7ec0031eb1e57/icons/128x128/org.telegram.desktop.png",
+    "error": null
+  },
+  {
+    "id": "org.onlyoffice.desktopeditors",
+    "metadata": "https://flathub.org/api/v2/appstream/org.onlyoffice.desktopeditors",
+    "icon": "https://dl.flathub.org/media/org/onlyoffice/desktopeditors/5602da018a6ffaae80da2f668f0113e0/icons/128x128/org.onlyoffice.desktopeditors.png",
+    "error": null
+  },
+  {
+    "id": "org.prismlauncher.PrismLauncher",
+    "metadata": "https://flathub.org/api/v2/appstream/org.prismlauncher.PrismLauncher",
+    "icon": "https://dl.flathub.org/media/org/prismlauncher/PrismLauncher/61a6268120825540bced2adcb8e6b734/icons/128x128/org.prismlauncher.PrismLauncher.png",
+    "error": null
+  },
+  {
+    "id": "md.obsidian.Obsidian",
+    "metadata": "https://flathub.org/api/v2/appstream/md.obsidian.Obsidian",
+    "icon": "https://dl.flathub.org/media/md/obsidian/Obsidian/4902fe5d9fec13519c5524761123cdeb/icons/128x128/md.obsidian.Obsidian.png",
+    "error": null
+  },
+  {
+    "id": "org.libretro.RetroArch",
+    "metadata": "https://flathub.org/api/v2/appstream/org.libretro.RetroArch",
+    "icon": "https://dl.flathub.org/media/org/libretro/RetroArch/0f9e059f4695b7116bab0d3d1cae1936/icons/128x128/org.libretro.RetroArch.png",
+    "error": null
+  },
+  {
+    "id": "org.localsend.localsend_app",
+    "metadata": "https://flathub.org/api/v2/appstream/org.localsend.localsend_app",
+    "icon": "https://dl.flathub.org/media/org/localsend/localsend_app/e1bb6e9a29b498c0a48de1a5683c652a/icons/128x128/org.localsend.localsend_app.png",
+    "error": null
+  },
+  {
+    "id": "net.davidotek.pupgui2",
+    "metadata": "https://flathub.org/api/v2/appstream/net.davidotek.pupgui2",
+    "icon": "https://dl.flathub.org/media/net/davidotek/pupgui2/cb80abc806d40793dec0412c81f83c68/icons/128x128/net.davidotek.pupgui2.png",
+    "error": null
+  },
+  {
+    "id": "com.mattjakeman.ExtensionManager",
+    "metadata": "https://flathub.org/api/v2/appstream/com.mattjakeman.ExtensionManager",
+    "icon": "https://dl.flathub.org/media/com/mattjakeman/ExtensionManager/325202b426bf0272893528da55c472e4/icons/128x128/com.mattjakeman.ExtensionManager.png",
+    "error": null
+  },
+  {
+    "id": "org.gimp.GIMP",
+    "metadata": "https://flathub.org/api/v2/appstream/org.gimp.GIMP",
+    "icon": "https://dl.flathub.org/media/org/gimp/GIMP/95e6d7d59d33a0f9364535dbe023d807/icons/128x128/org.gimp.GIMP.png",
+    "error": null
+  },
+  {
+    "id": "app.zen_browser.zen",
+    "metadata": "https://flathub.org/api/v2/appstream/app.zen_browser.zen",
+    "icon": "https://dl.flathub.org/media/app/zen_browser/zen/2c3ef632ed6b24db79e49bd22de0997a/icons/128x128/app.zen_browser.zen.png",
+    "error": null
+  },
+  {
+    "id": "org.DolphinEmu.dolphin-emu",
+    "metadata": "https://flathub.org/api/v2/appstream/org.DolphinEmu.dolphin-emu",
+    "icon": "https://dl.flathub.org/media/org/dolphinemu/dolphin-emu/545d6103cffc1fc13e2704ce509e2c0b/icons/128x128/org.DolphinEmu.dolphin-emu.png",
+    "error": null
+  },
+  {
+    "id": "org.qbittorrent.qBittorrent",
+    "metadata": "https://flathub.org/api/v2/appstream/org.qbittorrent.qBittorrent",
+    "icon": "https://dl.flathub.org/media/org/qbittorrent/qBittorrent/a2ea8421bdd1eb0dd854dd578bfa7d1f/icons/128x128/org.qbittorrent.qBittorrent.png",
+    "error": null
+  },
+  {
+    "id": "it.mijorus.gearlever",
+    "metadata": "https://flathub.org/api/v2/appstream/it.mijorus.gearlever",
+    "icon": "https://dl.flathub.org/media/it/mijorus/gearlever/b62a60074be3bc956df4f9ab3e5bdadd/icons/128x128/it.mijorus.gearlever.png",
+    "error": null
+  },
+  {
+    "id": "org.libreoffice.LibreOffice",
+    "metadata": "https://flathub.org/api/v2/appstream/org.libreoffice.LibreOffice",
+    "icon": "https://dl.flathub.org/media/org/libreoffice/LibreOffice/6a06e0ec2876ffc989b0e2a1340d3331/icons/128x128/org.libreoffice.LibreOffice.png",
+    "error": null
+  },
+  {
+    "id": "com.visualstudio.code",
+    "metadata": "https://flathub.org/api/v2/appstream/com.visualstudio.code",
+    "icon": "https://dl.flathub.org/media/com/visualstudio/code/929ab57f09f2d5a5bc7cea0648c9a332/icons/128x128/com.visualstudio.code.png",
+    "error": null
+  },
+  {
+    "id": "org.ppsspp.PPSSPP",
+    "metadata": "https://flathub.org/api/v2/appstream/org.ppsspp.PPSSPP",
+    "icon": "https://dl.flathub.org/media/org/ppsspp/PPSSPP/38b2798efcaad131e5a694a9edbccf53/icons/128x128/org.ppsspp.PPSSPP.png",
+    "error": null
+  },
+  {
+    "id": "com.protonvpn.www",
+    "metadata": "https://flathub.org/api/v2/appstream/com.protonvpn.www",
+    "icon": "https://dl.flathub.org/media/com/protonvpn/www/072afc9b48d2d05e626e202d2928a33a/icons/128x128/com.protonvpn.www.png",
+    "error": null
+  },
+  {
+    "id": "net.lutris.Lutris",
+    "metadata": "https://flathub.org/api/v2/appstream/net.lutris.Lutris",
+    "icon": "https://dl.flathub.org/media/net/lutris/Lutris/3cc8d32fd68604816f0a5f6872bf91b5/icons/128x128/net.lutris.Lutris.png",
+    "error": null
+  },
+  {
+    "id": "com.vysp3r.ProtonPlus",
+    "metadata": "https://flathub.org/api/v2/appstream/com.vysp3r.ProtonPlus",
+    "icon": "https://dl.flathub.org/media/com/vysp3r/ProtonPlus/56da0d2efac9db21a782c1fd28ceb5e9/icons/128x128/com.vysp3r.ProtonPlus.png",
+    "error": null
+  },
+  {
+    "id": "com.bitwarden.desktop",
+    "metadata": "https://flathub.org/api/v2/appstream/com.bitwarden.desktop",
+    "icon": "https://dl.flathub.org/media/com/bitwarden/desktop/c3c69a622a87154439c45280aebce2a8/icons/128x128/com.bitwarden.desktop.png",
+    "error": null
+  },
+  {
+    "id": "net.kuribo64.melonDS",
+    "metadata": "https://flathub.org/api/v2/appstream/net.kuribo64.melonDS",
+    "icon": "https://dl.flathub.org/media/net/kuribo64/melonDS/81b115ecef228fbc787c03d4808282f4/icons/128x128/net.kuribo64.melonDS.png",
+    "error": null
+  },
+  {
+    "id": "com.stremio.Stremio",
+    "metadata": "https://flathub.org/api/v2/appstream/com.stremio.Stremio",
+    "icon": "https://dl.flathub.org/media/com/stremio/Stremio/70953104fee307679e8ff5ff84dc3886/icons/128x128/com.stremio.Stremio.png",
+    "error": null
+  },
+  {
+    "id": "com.github.Matoking.protontricks",
+    "metadata": "https://flathub.org/api/v2/appstream/com.github.Matoking.protontricks",
+    "icon": "https://dl.flathub.org/media/com/github/Matoking.protontricks/85b5b73abdddd0bbea6861732d4d850c/icons/128x128/com.github.Matoking.protontricks.png",
+    "error": null
+  },
+  {
+    "id": "io.missioncenter.MissionCenter",
+    "metadata": "https://flathub.org/api/v2/appstream/io.missioncenter.MissionCenter",
+    "icon": "https://dl.flathub.org/media/io/missioncenter/MissionCenter/7794bb57afc07c0aeeaf1a88f93f0f62/icons/128x128/io.missioncenter.MissionCenter.png",
+    "error": null
+  },
+  {
+    "id": "app.xemu.xemu",
+    "metadata": "https://flathub.org/api/v2/appstream/app.xemu.xemu",
+    "icon": "https://dl.flathub.org/media/app/xemu/xemu/5fb681efb7de70e15ae8a3431c8d37b7/icons/128x128/app.xemu.xemu.png",
+    "error": null
+  },
+  {
+    "id": "io.gitlab.librewolf-community",
+    "metadata": "https://flathub.org/api/v2/appstream/io.gitlab.librewolf-community",
+    "icon": "https://dl.flathub.org/media/io/gitlab/librewolf-community/0a3bd5d6759aaa4e935f23179b11b186/icons/128x128/io.gitlab.librewolf-community.png",
+    "error": null
+  },
+  {
+    "id": "io.github.kolunmi.Bazaar",
+    "metadata": "https://flathub.org/api/v2/appstream/io.github.kolunmi.Bazaar",
+    "icon": "https://dl.flathub.org/media/io/github/kolunmi.Bazaar/bd8b9fbf2939fccfb02f1f7c21a49fcd/icons/128x128/io.github.kolunmi.Bazaar.png",
+    "error": null
+  },
+  {
+    "id": "org.kde.kdenlive",
+    "metadata": "https://flathub.org/api/v2/appstream/org.kde.kdenlive",
+    "icon": "https://dl.flathub.org/media/org/kde/kdenlive.desktop/ed746a0f36b42446cedf1605b1c4f0cb/icons/128x128/org.kde.kdenlive.desktop.png",
+    "error": null
+  },
+  {
+    "id": "io.github.shiiion.primehack",
+    "metadata": "https://flathub.org/api/v2/appstream/io.github.shiiion.primehack",
+    "icon": "https://dl.flathub.org/media/io/github/shiiion.primehack/228ebb798795e052dab61f4e1db8c469/icons/128x128/io.github.shiiion.primehack.png",
+    "error": null
+  },
+  {
+    "id": "io.freetubeapp.FreeTube",
+    "metadata": "https://flathub.org/api/v2/appstream/io.freetubeapp.FreeTube",
+    "icon": "https://dl.flathub.org/media/io/freetubeapp/FreeTube/aa55a516bb9ede7b1eff56ada345d909/icons/128x128/io.freetubeapp.FreeTube.png",
+    "error": null
+  },
+  {
+    "id": "org.torproject.torbrowser-launcher",
+    "metadata": "https://flathub.org/api/v2/appstream/org.torproject.torbrowser-launcher",
+    "icon": "https://dl.flathub.org/media/org/torproject/torbrowser-launcher/8bbf3d7c3768830e11a10b6b47366829/icons/128x128/org.torproject.torbrowser-launcher.png",
+    "error": null
+  },
+  {
+    "id": "org.fedoraproject.MediaWriter",
+    "metadata": "https://flathub.org/api/v2/appstream/org.fedoraproject.MediaWriter",
+    "icon": "https://dl.flathub.org/media/org/fedoraproject/MediaWriter.desktop/c3cef017f3027dbf4d6b42ce15dfc311/icons/128x128/org.fedoraproject.MediaWriter.desktop.png",
+    "error": null
+  },
+  {
+    "id": "org.scummvm.ScummVM",
+    "metadata": "https://flathub.org/api/v2/appstream/org.scummvm.ScummVM",
+    "icon": "https://dl.flathub.org/media/org/scummvm/ScummVM/7c22b2d437c0bcb2264b05ea01f0fc91/icons/128x128/org.scummvm.ScummVM.png",
+    "error": null
+  },
+  {
+    "id": "com.supermodel3.Supermodel",
+    "metadata": "https://flathub.org/api/v2/appstream/com.supermodel3.Supermodel",
+    "icon": "https://dl.flathub.org/media/com/supermodel3/Supermodel/7fef40ec8b005a6a3bb87df350b5a68e/icons/128x128/com.supermodel3.Supermodel.png",
+    "error": null
+  },
+  {
+    "id": "com.ktechpit.whatsie",
+    "metadata": "https://flathub.org/api/v2/appstream/com.ktechpit.whatsie",
+    "icon": "https://dl.flathub.org/media/com/ktechpit/whatsie/630edc06480bac2b2262bcdc0433e343/icons/128x128/com.ktechpit.whatsie.png",
+    "error": null
+  },
+  {
+    "id": "org.kde.krita",
+    "metadata": "https://flathub.org/api/v2/appstream/org.kde.krita",
+    "icon": "https://dl.flathub.org/media/org/kde/krita/1348962dcc0842250c4ce6876acc36cc/icons/128x128/org.kde.krita.png",
+    "error": null
+  },
+  {
+    "id": "com.microsoft.Edge",
+    "metadata": "https://flathub.org/api/v2/appstream/com.microsoft.Edge",
+    "icon": "https://dl.flathub.org/media/com/microsoft/Edge/75dd29256d4d9e1ed06f34b45824d782/icons/128x128/com.microsoft.Edge.png",
+    "error": null
+  },
+  {
+    "id": "org.freecad.FreeCAD",
+    "metadata": "https://flathub.org/api/v2/appstream/org.freecad.FreeCAD",
+    "icon": "https://dl.flathub.org/media/org/freecad/FreeCAD/147bb7390e51b88c0e4e7c461019b230/icons/128x128/org.freecad.FreeCAD.png",
+    "error": null
+  },
+  {
+    "id": "com.github.wwmm.easyeffects",
+    "metadata": "https://flathub.org/api/v2/appstream/com.github.wwmm.easyeffects",
+    "icon": "https://dl.flathub.org/media/com/github/wwmm.easyeffects.desktop/50fb3b40504f5faa5e94e44d27401d0d/icons/128x128/com.github.wwmm.easyeffects.desktop.png",
+    "error": null
+  },
+  {
+    "id": "dev.vencord.Vesktop",
+    "metadata": "https://flathub.org/api/v2/appstream/dev.vencord.Vesktop",
+    "icon": "https://dl.flathub.org/media/dev/vencord/Vesktop/34c98d1300f4807d83af629811965394/icons/128x128/dev.vencord.Vesktop.png",
+    "error": null
+  },
+  {
+    "id": "org.darktable.Darktable",
+    "metadata": "https://flathub.org/api/v2/appstream/org.darktable.Darktable",
+    "icon": "https://dl.flathub.org/media/org/darktable/Darktable/1b5cfd7af8bcd84fc939759726f1ba7d/icons/128x128/org.darktable.Darktable.png",
+    "error": null
+  },
+  {
+    "id": "com.rustdesk.RustDesk",
+    "metadata": "https://flathub.org/api/v2/appstream/com.rustdesk.RustDesk",
+    "icon": "https://dl.flathub.org/media/com/rustdesk/RustDesk/cdcf62c519fde533907a1e84a8e5b069/icons/128x128/com.rustdesk.RustDesk.png",
+    "error": null
+  },
+  {
+    "id": "io.github.peazip.PeaZip",
+    "metadata": "https://flathub.org/api/v2/appstream/io.github.peazip.PeaZip",
+    "icon": "https://dl.flathub.org/media/io/github/peazip.PeaZip/a07d3782df6ba74a8eb3312630ac4122/icons/128x128/io.github.peazip.PeaZip.png",
+    "error": null
+  },
+  {
+    "id": "org.mozilla.thunderbird",
+    "metadata": "https://flathub.org/api/v2/appstream/org.mozilla.thunderbird",
+    "icon": "https://dl.flathub.org/media//org/mozilla/thunderbird/4926381166838b44a4517f57366a1951/icons/128x128/org.mozilla.thunderbird.png",
+    "error": null
+  },
+  {
+    "id": "org.jellyfin.JellyfinDesktop",
+    "metadata": "https://flathub.org/api/v2/appstream/org.jellyfin.JellyfinDesktop",
+    "icon": "https://dl.flathub.org/media/org/jellyfin/JellyfinDesktop/c3487ec3c30bbf6a28e252c9d83aeefe/icons/128x128/org.jellyfin.JellyfinDesktop.png",
+    "error": null
+  },
+  {
+    "id": "org.mozilla.thunderbird_esr",
+    "metadata": "https://flathub.org/api/v2/appstream/org.mozilla.thunderbird_esr",
+    "icon": "https://dl.flathub.org/media//org/mozilla/thunderbird_esr/db08e28bc6311910f95c24f99846d654/icons/128x128/org.mozilla.thunderbird_esr.png",
+    "error": null
+  },
+  {
+    "id": "com.github.unrud.VideoDownloader",
+    "metadata": "https://flathub.org/api/v2/appstream/com.github.unrud.VideoDownloader",
+    "icon": "https://dl.flathub.org/media/com/github/unrud.VideoDownloader/3fd8e4bde4e04cfd546f30acd1715555/icons/128x128/com.github.unrud.VideoDownloader.png",
+    "error": null
+  },
+  {
+    "id": "com.rtosta.zapzap",
+    "metadata": "https://flathub.org/api/v2/appstream/com.rtosta.zapzap",
+    "icon": "https://dl.flathub.org/media/com/rtosta/zapzap/638a3f11e59a9092d9a7b13af0d55bfc/icons/128x128/com.rtosta.zapzap.png",
+    "error": null
+  },
+  {
+    "id": "org.winehq.Wine",
+    "metadata": "https://flathub.org/api/v2/appstream/org.winehq.Wine",
+    "icon": "https://dl.flathub.org/media/org/winehq/Wine/b1c2eabe6cab85ae5a45d9062f7ca208/icons/128x128/org.winehq.Wine.png",
+    "error": null
+  },
+  {
+    "id": "com.moonlight_stream.Moonlight",
+    "metadata": "https://flathub.org/api/v2/appstream/com.moonlight_stream.Moonlight",
+    "icon": "https://dl.flathub.org/media/com/moonlight_stream/Moonlight/722fa831655ce5bd6edd5b7e10968acb/icons/128x128/com.moonlight_stream.Moonlight.png",
+    "error": null
+  },
+  {
+    "id": "io.mrarm.mcpelauncher",
+    "metadata": "https://flathub.org/api/v2/appstream/io.mrarm.mcpelauncher",
+    "icon": "https://dl.flathub.org/media/io/mrarm/mcpelauncher/20475562c45c3e57853ca71a7fc117e9/icons/128x128/io.mrarm.mcpelauncher.png",
+    "error": null
+  },
+  {
+    "id": "us.zoom.Zoom",
+    "metadata": "https://flathub.org/api/v2/appstream/us.zoom.Zoom",
+    "icon": "https://dl.flathub.org/media/us/zoom/Zoom/58282a0f461c5b2c1f503aa027e8e052/icons/128x128/us.zoom.Zoom.png",
+    "error": null
+  },
+  {
+    "id": "net.pcsx2.PCSX2",
+    "metadata": "https://flathub.org/api/v2/appstream/net.pcsx2.PCSX2",
+    "icon": "https://dl.flathub.org/media/net/pcsx2/PCSX2/374d48f39b8b90c9f400fdfe2d0b0595/icons/128x128/net.pcsx2.PCSX2.png",
+    "error": null
+  },
+  {
+    "id": "org.signal.Signal",
+    "metadata": "https://flathub.org/api/v2/appstream/org.signal.Signal",
+    "icon": "https://dl.flathub.org/media/org/signal/Signal/9b9ec85132f9b02718c7ad45f509bfc0/icons/128x128/org.signal.Signal.png",
+    "error": null
+  },
+  {
+    "id": "fr.handbrake.ghb",
+    "metadata": "https://flathub.org/api/v2/appstream/fr.handbrake.ghb",
+    "icon": "https://dl.flathub.org/media/fr/handbrake/ghb/ba64e7a37b2b3270d6065fdca313dfa3/icons/128x128/fr.handbrake.ghb.png",
+    "error": null
+  },
+  {
+    "id": "com.mojang.Minecraft",
+    "metadata": "https://flathub.org/api/v2/appstream/com.mojang.Minecraft",
+    "icon": "https://dl.flathub.org/media/com/mojang/Minecraft/f54a9afb730dbc6b4d9827e274101545/icons/128x128/com.mojang.Minecraft.png",
+    "error": null
+  },
+  {
+    "id": "org.keepassxc.KeePassXC",
+    "metadata": "https://flathub.org/api/v2/appstream/org.keepassxc.KeePassXC",
+    "icon": "https://dl.flathub.org/media/org/keepassxc/KeePassXC.desktop/4c36ed73b0a57050b7fda2be02da09f1/icons/128x128/org.keepassxc.KeePassXC.desktop.png",
+    "error": null
+  },
+  {
+    "id": "com.bambulab.BambuStudio",
+    "metadata": "https://flathub.org/api/v2/appstream/com.bambulab.BambuStudio",
+    "icon": "https://dl.flathub.org/media/com/bambulab/BambuStudio/f6acf2649e1e7890f4171a52b86415a3/icons/128x128/com.bambulab.BambuStudio.png",
+    "error": null
+  },
+  {
+    "id": "io.github.ilya_zlobintsev.LACT",
+    "metadata": "https://flathub.org/api/v2/appstream/io.github.ilya_zlobintsev.LACT",
+    "icon": "https://dl.flathub.org/media/io/github/ilya_zlobintsev.LACT/dd8395e616ee23884ac69a90e13ae958/icons/128x128/io.github.ilya_zlobintsev.LACT.png",
+    "error": null
+  },
+  {
+    "id": "io.gitlab.adhami3310.Impression",
+    "metadata": "https://flathub.org/api/v2/appstream/io.gitlab.adhami3310.Impression",
+    "icon": "https://dl.flathub.org/media/io/gitlab/adhami3310.Impression/05aa7f73a71b0cec60d9ba432376066d/icons/128x128/io.gitlab.adhami3310.Impression.png",
+    "error": null
+  },
+  {
+    "id": "com.vscodium.codium",
+    "metadata": "https://flathub.org/api/v2/appstream/com.vscodium.codium",
+    "icon": "https://dl.flathub.org/media/com/vscodium/codium/3914e24c34d81b8def2d0e58deaefefd/icons/128x128/com.vscodium.codium.png",
+    "error": null
+  },
+  {
+    "id": "ru.linux_gaming.PortProton",
+    "metadata": "https://flathub.org/api/v2/appstream/ru.linux_gaming.PortProton",
+    "icon": "https://dl.flathub.org/media/ru/linux_gaming/PortProton/974f55168f808e33ee65a81299e5c5fc/icons/128x128/ru.linux_gaming.PortProton.png",
+    "error": null
+  },
+  {
+    "id": "io.github.flattool.Warehouse",
+    "metadata": "https://flathub.org/api/v2/appstream/io.github.flattool.Warehouse",
+    "icon": "https://dl.flathub.org/media/io/github/flattool.Warehouse.desktop/e0c756d408a1a2aa2653a7f78004e6b4/icons/128x128/io.github.flattool.Warehouse.desktop.png",
+    "error": null
+  },
+  {
+    "id": "dev.lizardbyte.app.Sunshine",
+    "metadata": "https://flathub.org/api/v2/appstream/dev.lizardbyte.app.Sunshine",
+    "icon": "https://dl.flathub.org/media/dev/lizardbyte/app.Sunshine/219a73dcd1eebd61e3acc9b07d9ab3b8/icons/128x128/dev.lizardbyte.app.Sunshine.png",
+    "error": null
+  },
+  {
+    "id": "org.blender.Blender",
+    "metadata": "https://flathub.org/api/v2/appstream/org.blender.Blender",
+    "icon": "https://dl.flathub.org/media/org/blender/Blender/c6b07403115901571923d99f1b725b0e/icons/128x128/org.blender.Blender.png",
+    "error": null
+  },
+  {
+    "id": "org.inkscape.Inkscape",
+    "metadata": "https://flathub.org/api/v2/appstream/org.inkscape.Inkscape",
+    "icon": "https://dl.flathub.org/media/org/inkscape/Inkscape/d06b79da7ad6df73032683fbcf8c4d56/icons/128x128/org.inkscape.Inkscape.png",
+    "error": null
+  },
+  {
+    "id": "com.modrinth.ModrinthApp",
+    "metadata": "https://flathub.org/api/v2/appstream/com.modrinth.ModrinthApp",
+    "icon": "https://dl.flathub.org/media/com/modrinth/ModrinthApp/b1c7aa8dbb27cb713b464b752f423f08/icons/128x128/com.modrinth.ModrinthApp.png",
+    "error": null
+  },
+  {
+    "id": "org.audacityteam.Audacity",
+    "metadata": "https://flathub.org/api/v2/appstream/org.audacityteam.Audacity",
+    "icon": "https://dl.flathub.org/media/org/audacityteam/Audacity/0ad4a24524b6c06220649dc83a08ae81/icons/128x128/org.audacityteam.Audacity.png",
+    "error": null
+  },
+  {
+    "id": "io.github.jeffshee.Hidamari",
+    "metadata": "https://flathub.org/api/v2/appstream/io.github.jeffshee.Hidamari",
+    "icon": "https://dl.flathub.org/media/io/github/jeffshee.Hidamari/76183b5527e6b4ef51fe10bf18c28303/icons/128x128/io.github.jeffshee.Hidamari.png",
+    "error": null
+  },
+  {
+    "id": "com.logseq.Logseq",
+    "metadata": "https://flathub.org/api/v2/appstream/com.logseq.Logseq",
+    "icon": "https://dl.flathub.org/media/com/logseq/Logseq/e9fd7754757f106ceb422f684122ed63/icons/128x128/com.logseq.Logseq.png",
+    "error": null
+  },
+  {
+    "id": "org.vinegarhq.Vinegar",
+    "metadata": "https://flathub.org/api/v2/appstream/org.vinegarhq.Vinegar",
+    "icon": "https://dl.flathub.org/media/org/vinegarhq/Vinegar/ac69fa41904f66c0c811d38e0b2aad1f/icons/128x128/org.vinegarhq.Vinegar.png",
+    "error": null
+  },
+  {
+    "id": "io.github.alainm23.planify",
+    "metadata": "https://flathub.org/api/v2/appstream/io.github.alainm23.planify",
+    "icon": "https://dl.flathub.org/media/io/github/alainm23.planify/caab2d5959e999c8cfa39e9fac258229/icons/128x128/io.github.alainm23.planify.png",
+    "error": null
+  },
+  {
+    "id": "com.orcaslicer.OrcaSlicer",
+    "metadata": "https://flathub.org/api/v2/appstream/com.orcaslicer.OrcaSlicer",
+    "icon": "https://dl.flathub.org/media/com/orcaslicer/OrcaSlicer/18f6b453452d01e38e6a6865977d0ff0/icons/128x128/com.orcaslicer.OrcaSlicer.png",
+    "error": null
+  },
+  {
+    "id": "de.haeckerfelix.Shortwave",
+    "metadata": "https://flathub.org/api/v2/appstream/de.haeckerfelix.Shortwave",
+    "icon": "https://dl.flathub.org/media/de/haeckerfelix/Shortwave/57e51d0b06c9f8331965986ea910b4ed/icons/128x128/de.haeckerfelix.Shortwave.png",
+    "error": null
+  },
+  {
+    "id": "com.github.jeromerobert.pdfarranger",
+    "metadata": "https://flathub.org/api/v2/appstream/com.github.jeromerobert.pdfarranger",
+    "icon": "https://dl.flathub.org/media/com/github/jeromerobert.pdfarranger/e4ca6b0caccb8aa65fb40f5c22a3752c/icons/128x128/com.github.jeromerobert.pdfarranger.png",
+    "error": null
+  },
+  {
+    "id": "org.openrgb.OpenRGB",
+    "metadata": "https://flathub.org/api/v2/appstream/org.openrgb.OpenRGB",
+    "icon": "https://dl.flathub.org/media/org/openrgb/OpenRGB/0fd5cbd5fafcdbeb4a3ae6cd22df2c8d/icons/128x128/org.openrgb.OpenRGB.png",
+    "error": null
+  },
+  {
+    "id": "com.opera.opera-gx",
+    "metadata": "https://flathub.org/api/v2/appstream/com.opera.opera-gx",
+    "icon": "https://dl.flathub.org/media/com/opera/opera-gx/57da813fa7a32799c9bac2eaadf582de/icons/128x128/com.opera.opera-gx.png",
+    "error": null
+  },
+  {
+    "id": "com.vivaldi.Vivaldi",
+    "metadata": "https://flathub.org/api/v2/appstream/com.vivaldi.Vivaldi",
+    "icon": "https://dl.flathub.org/media/com/vivaldi/Vivaldi/ed2903cba5929ff4ae3755dc925e86e6/icons/128x128/com.vivaldi.Vivaldi.png",
+    "error": null
+  },
+  {
+    "id": "com.github.IsmaelMartinez.teams_for_linux",
+    "metadata": "https://flathub.org/api/v2/appstream/com.github.IsmaelMartinez.teams_for_linux",
+    "icon": "https://dl.flathub.org/media/com/github/IsmaelMartinez.teams_for_linux/20b2758cc4e9bf445f400321f24c8fe6/icons/128x128/com.github.IsmaelMartinez.teams_for_linux.png",
+    "error": null
+  },
+  {
+    "id": "space.bigrat.mocktail",
+    "metadata": "https://flathub.org/api/v2/appstream/space.bigrat.mocktail",
+    "icon": "https://dl.flathub.org/media/s/sp/space.bigrat.mocktail/72fda5a7dfde73a25941f5279851d934/icons/128x128/space.bigrat.mocktail.png",
+    "error": null
+  },
+  {
+    "id": "io.github.Faugus.faugus-launcher",
+    "metadata": "https://flathub.org/api/v2/appstream/io.github.Faugus.faugus-launcher",
+    "icon": "https://dl.flathub.org/media/io/github/Faugus.faugus-launcher/1edf49c4d1f11c2cf6e1542d1caaafd8/icons/128x128/io.github.Faugus.faugus-launcher.png",
+    "error": null
+  },
+  {
+    "id": "net.nokyan.Resources",
+    "metadata": "https://flathub.org/api/v2/appstream/net.nokyan.Resources",
+    "icon": "https://dl.flathub.org/media/net/nokyan/Resources/26207441617772360b43556d7ac89840/icons/128x128/net.nokyan.Resources.png",
+    "error": null
+  },
+  {
+    "id": "org.gnome.Boxes",
+    "metadata": "https://flathub.org/api/v2/appstream/org.gnome.Boxes",
+    "icon": "https://dl.flathub.org/media/org/gnome/Boxes.desktop/21197cc56a7bd29d89fe91d2bda9b910/icons/128x128/org.gnome.Boxes.desktop.png",
+    "error": null
+  },
+  {
+    "id": "tv.kodi.Kodi",
+    "metadata": "https://flathub.org/api/v2/appstream/tv.kodi.Kodi",
+    "icon": "https://dl.flathub.org/media/tv/kodi/Kodi/b9c24819d687121f4644a116d2da4d16/icons/128x128/tv.kodi.Kodi.png",
+    "error": null
+  },
+  {
+    "id": "io.github.ungoogled_software.ungoogled_chromium",
+    "metadata": "https://flathub.org/api/v2/appstream/io.github.ungoogled_software.ungoogled_chromium",
+    "icon": "https://dl.flathub.org/media/io/github/ungoogled_software.ungoogled_chromium/acbe640ebcc7ff8b9ca650064f974762/icons/128x128/io.github.ungoogled_software.ungoogled_chromium.png",
+    "error": null
+  },
+  {
+    "id": "org.remmina.Remmina",
+    "metadata": "https://flathub.org/api/v2/appstream/org.remmina.Remmina",
+    "icon": "https://dl.flathub.org/media/org/remmina/Remmina/25c1e58ee7a9bb3b88dbb89f0083eab8/icons/128x128/org.remmina.Remmina.png",
+    "error": null
+  },
+  {
+    "id": "com.anydesk.Anydesk",
+    "metadata": "https://flathub.org/api/v2/appstream/com.anydesk.Anydesk",
+    "icon": "https://dl.flathub.org/media/com/anydesk/Anydesk.desktop/54dd5bdde68faa95e8e0d769e1bc9c68/icons/128x128/com.anydesk.Anydesk.desktop.png",
+    "error": null
+  },
+  {
+    "id": "org.kde.konsole",
+    "metadata": "https://flathub.org/api/v2/appstream/org.kde.konsole",
+    "icon": "https://dl.flathub.org/media/org/kde/konsole.desktop/99116e156444bbab9cd2538ef0320314/icons/128x128/org.kde.konsole.desktop.png",
+    "error": null
+  },
+  {
+    "id": "com.wps.Office",
+    "metadata": "https://flathub.org/api/v2/appstream/com.wps.Office",
+    "icon": "https://dl.flathub.org/media/com/wps/Office/2463a7838781536f7691c41164b472d7/icons/128x128/com.wps.Office.png",
+    "error": null
+  },
+  {
+    "id": "ai.lmstudio.lm-studio",
+    "metadata": "https://flathub.org/api/v2/appstream/ai.lmstudio.lm-studio",
+    "icon": "https://dl.flathub.org/media/ai/lmstudio/lm-studio/7e60646910129fa40fa38b691c4f0051/icons/128x128/ai.lmstudio.lm-studio.png",
+    "error": null
+  },
+  {
+    "id": "org.kde.okular",
+    "metadata": "https://flathub.org/api/v2/appstream/org.kde.okular",
+    "icon": "https://dl.flathub.org/media/org/kde/okular.desktop/0317c20dc29e75b2c16aa725cce48672/icons/128x128/org.kde.okular.desktop.png",
+    "error": null
+  },
+  {
+    "id": "org.nickvision.tubeconverter",
+    "metadata": "https://flathub.org/api/v2/appstream/org.nickvision.tubeconverter",
+    "icon": "https://dl.flathub.org/media/org/nickvision/tubeconverter/f526236e97441b42028566e48c76d56b/icons/128x128/org.nickvision.tubeconverter.png",
+    "error": null
+  },
+  {
+    "id": "io.dbeaver.DBeaverCommunity",
+    "metadata": "https://flathub.org/api/v2/appstream/io.dbeaver.DBeaverCommunity",
+    "icon": "https://dl.flathub.org/media/io/dbeaver/DBeaverCommunity/fecdb025e53c4a6e566b37b75525162d/icons/128x128/io.dbeaver.DBeaverCommunity.png",
+    "error": null
+  },
+  {
+    "id": "org.jdownloader.JDownloader",
+    "metadata": "https://flathub.org/api/v2/appstream/org.jdownloader.JDownloader",
+    "icon": "https://dl.flathub.org/media/org/jdownloader/JDownloader/a016cccd011e5fb2f9b3dfa9efe045e3/icons/128x128/org.jdownloader.JDownloader.png",
+    "error": null
+  },
+  {
+    "id": "com.opera.Opera",
+    "metadata": "https://flathub.org/api/v2/appstream/com.opera.Opera",
+    "icon": "https://dl.flathub.org/media/com/opera/Opera/6fbb4687c11aa28544cb4cc52dc9c66b/icons/128x128/com.opera.Opera.png",
+    "error": null
+  },
+  {
+    "id": "rocks.shy.VacuumTube",
+    "metadata": "https://flathub.org/api/v2/appstream/rocks.shy.VacuumTube",
+    "icon": "https://dl.flathub.org/media/r/ro/rocks.shy.vacuumtube/d7c9528e389cfdf45adc22ee46cd2ea5/icons/128x128/rocks.shy.VacuumTube.png",
+    "error": null
+  },
+  {
+    "id": "com.dec05eba.gpu_screen_recorder",
+    "metadata": "https://flathub.org/api/v2/appstream/com.dec05eba.gpu_screen_recorder",
+    "icon": "https://dl.flathub.org/media/com/dec05eba/gpu_screen_recorder/bd8207c1c988575a9956101aef12dfc9/icons/128x128/com.dec05eba.gpu_screen_recorder.png",
+    "error": null
+  },
+  {
+    "id": "com.github.PintaProject.Pinta",
+    "metadata": "https://flathub.org/api/v2/appstream/com.github.PintaProject.Pinta",
+    "icon": "https://dl.flathub.org/media/com/github/PintaProject.Pinta/6036b596f8f5a6ce7c2dc8a7d9c0565f/icons/128x128/com.github.PintaProject.Pinta.png",
+    "error": null
+  },
+  {
+    "id": "org.gnome.Snapshot",
+    "metadata": "https://flathub.org/api/v2/appstream/org.gnome.Snapshot",
+    "icon": "https://dl.flathub.org/media/org/gnome/Snapshot/8ea640f901efdd4e9178f96ab1e41c9c/icons/128x128/org.gnome.Snapshot.png",
+    "error": null
+  },
+  {
+    "id": "org.shotcut.Shotcut",
+    "metadata": "https://flathub.org/api/v2/appstream/org.shotcut.Shotcut",
+    "icon": "https://dl.flathub.org/media/org/shotcut/Shotcut/6740996b9caf645b4d2d71211d68fd3f/icons/128x128/org.shotcut.Shotcut.png",
+    "error": null
+  },
+  {
+    "id": "org.gnome.Calculator",
+    "metadata": "https://flathub.org/api/v2/appstream/org.gnome.Calculator",
+    "icon": "https://dl.flathub.org/media/org/gnome/Calculator/e38157e4387ef6a0aef6faed3debf861/icons/128x128/org.gnome.Calculator.png",
+    "error": null
+  },
+  {
+    "id": "org.gnome.baobab",
+    "metadata": "https://flathub.org/api/v2/appstream/org.gnome.baobab",
+    "icon": "https://dl.flathub.org/media/org/gnome/baobab/dd1f4020a8309f35facb5ffb316648bc/icons/128x128/org.gnome.baobab.png",
+    "error": null
+  },
+  {
+    "id": "io.github.linx_systems.ClamUI",
+    "metadata": "https://flathub.org/api/v2/appstream/io.github.linx_systems.ClamUI",
+    "icon": "https://dl.flathub.org/media/io/github/linx_systems.ClamUI/9a712932db529237dbd02ee3ff6f758c/icons/128x128/io.github.linx_systems.ClamUI.png",
+    "error": null
+  },
+  {
+    "id": "net.retrodeck.retrodeck",
+    "metadata": "https://flathub.org/api/v2/appstream/net.retrodeck.retrodeck",
+    "icon": "https://dl.flathub.org/media/net/retrodeck/retrodeck/02bff83dbd406b9d0fcf774b48731794/icons/128x128/net.retrodeck.retrodeck.png",
+    "error": null
+  },
+  {
+    "id": "org.kde.isoimagewriter",
+    "metadata": "https://flathub.org/api/v2/appstream/org.kde.isoimagewriter",
+    "icon": "https://dl.flathub.org/media/org/kde/isoimagewriter.desktop/4691966c30227c9d0b9d986c6194d535/icons/128x128/org.kde.isoimagewriter.desktop.png",
+    "error": null
+  },
+  {
+    "id": "org.kde.dolphin",
+    "metadata": "https://flathub.org/api/v2/appstream/org.kde.dolphin",
+    "icon": "https://dl.flathub.org/media/org/kde/dolphin.desktop/08d39ebdc631b3998fb61c1ecefd3491/icons/128x128/org.kde.dolphin.desktop.png",
+    "error": null
+  },
+  {
+    "id": "com.slack.Slack",
+    "metadata": "https://flathub.org/api/v2/appstream/com.slack.Slack",
+    "icon": "https://dl.flathub.org/media/com/slack/Slack/b1f70412ad52eae1bd1afc0438e1b5eb/icons/128x128/com.slack.Slack.png",
+    "error": null
+  },
+  {
+    "id": "me.proton.Mail",
+    "metadata": "https://flathub.org/api/v2/appstream/me.proton.Mail",
+    "icon": "https://dl.flathub.org/media/me/proton/Mail/46b531272bae7efde7a74b0912a731a0/icons/128x128/me.proton.Mail.png",
+    "error": null
+  },
+  {
+    "id": "com.github.johnfactotum.Foliate",
+    "metadata": "https://flathub.org/api/v2/appstream/com.github.johnfactotum.Foliate",
+    "icon": "https://dl.flathub.org/media/com/github/johnfactotum.Foliate/50c58d8da7fe3fa08d1fbf5174369d7d/icons/128x128/com.github.johnfactotum.Foliate.png",
+    "error": null
+  },
+  {
+    "id": "net.waterfox.waterfox",
+    "metadata": "https://flathub.org/api/v2/appstream/net.waterfox.waterfox",
+    "icon": "https://dl.flathub.org/media/net/waterfox/waterfox/ab67a8636ffe0cb30489b0e16e48ede4/icons/128x128/net.waterfox.waterfox.png",
+    "error": null
+  },
+  {
+    "id": "io.podman_desktop.PodmanDesktop",
+    "metadata": "https://flathub.org/api/v2/appstream/io.podman_desktop.PodmanDesktop",
+    "icon": "https://dl.flathub.org/media/io/podman_desktop/PodmanDesktop/0e874175db2eacf98c2c6a442bd66730/icons/128x128/io.podman_desktop.PodmanDesktop.png",
+    "error": null
+  },
+  {
+    "id": "io.github.thetumultuousunicornofdarkness.cpu-x",
+    "metadata": "https://flathub.org/api/v2/appstream/io.github.thetumultuousunicornofdarkness.cpu-x",
+    "icon": "https://dl.flathub.org/media/io/github/thetumultuousunicornofdarkness.cpu-x/f6a679131300dfe4dd995ea7f4b201bc/icons/128x128/io.github.thetumultuousunicornofdarkness.cpu-x.png",
+    "error": null
+  },
+  {
+    "id": "org.freedownloadmanager.Manager",
+    "metadata": "https://flathub.org/api/v2/appstream/org.freedownloadmanager.Manager",
+    "icon": "https://dl.flathub.org/media/org/freedownloadmanager/Manager/ce575fd2b17364fc48f4cb07194a58cb/icons/128x128/org.freedownloadmanager.Manager.png",
+    "error": null
+  },
+  {
+    "id": "io.github.giantpinkrobots.bootqt",
+    "metadata": "https://flathub.org/api/v2/appstream/io.github.giantpinkrobots.bootqt",
+    "icon": "https://dl.flathub.org/media/io/github/giantpinkrobots.bootqt/05d5acbe1e387bdc83b7552a835f5b60/icons/128x128/io.github.giantpinkrobots.bootqt.png",
+    "error": null
+  },
+  {
+    "id": "org.gnome.Loupe",
+    "metadata": "https://flathub.org/api/v2/appstream/org.gnome.Loupe",
+    "icon": "https://dl.flathub.org/media/org/gnome/Loupe/e73a5bdf338d14273f5e083f8ee422bf/icons/128x128/org.gnome.Loupe.png",
+    "error": null
+  },
+  {
+    "id": "com.google.AndroidStudio",
+    "metadata": "https://flathub.org/api/v2/appstream/com.google.AndroidStudio",
+    "icon": "https://dl.flathub.org/media/com/google/AndroidStudio/14395d20e4b8e1d77b9c6c7acccb644c/icons/128x128/com.google.AndroidStudio.png",
+    "error": null
+  },
+  {
+    "id": "org.flameshot.Flameshot",
+    "metadata": "https://flathub.org/api/v2/appstream/org.flameshot.Flameshot",
+    "icon": "https://dl.flathub.org/media/org/flameshot/Flameshot/01255509263c27292ce694be288babe0/icons/128x128/org.flameshot.Flameshot.png",
+    "error": null
+  },
+  {
+    "id": "io.github.cosmic_utils.camera",
+    "metadata": "https://flathub.org/api/v2/appstream/io.github.cosmic_utils.camera",
+    "icon": "https://dl.flathub.org/media/io/github/cosmic_utils.camera/fd515165866550cfaf1b16c1d2f972a3/icons/128x128/io.github.cosmic_utils.camera.png",
+    "error": null
+  },
+  {
+    "id": "cc.arduino.IDE2",
+    "metadata": "https://flathub.org/api/v2/appstream/cc.arduino.IDE2",
+    "icon": "https://dl.flathub.org/media/cc/arduino/IDE2/fe4d50b76cbf481416980fe380a8b8fa/icons/128x128/cc.arduino.IDE2.png",
+    "error": null
+  },
+  {
+    "id": "com.calibre_ebook.calibre",
+    "metadata": "https://flathub.org/api/v2/appstream/com.calibre_ebook.calibre",
+    "icon": "https://dl.flathub.org/media/com/calibre_ebook/calibre/42df4cc1fa6830a00f75081dbbda07cd/icons/128x128/com.calibre_ebook.calibre.png",
+    "error": null
+  },
+  {
+    "id": "org.filezillaproject.Filezilla",
+    "metadata": "https://flathub.org/api/v2/appstream/org.filezillaproject.Filezilla",
+    "icon": "https://dl.flathub.org/media/org/filezillaproject/Filezilla/5160b88ed6c01ce752c9e46f86093d6e/icons/128x128/org.filezillaproject.Filezilla.png",
+    "error": null
+  },
+  {
+    "id": "io.github.aandrew_me.ytdn",
+    "metadata": "https://flathub.org/api/v2/appstream/io.github.aandrew_me.ytdn",
+    "icon": "https://dl.flathub.org/media/io/github/aandrew_me.ytdn/87592d8cd6c54e2709a96b1271954384/icons/128x128/io.github.aandrew_me.ytdn.png",
+    "error": null
+  },
+  {
+    "id": "net.rpcs3.RPCS3",
+    "metadata": "https://flathub.org/api/v2/appstream/net.rpcs3.RPCS3",
+    "icon": "https://dl.flathub.org/media/net/rpcs3/RPCS3/2659d3bab17f7f07d3c65220e9e25cf6/icons/128x128/net.rpcs3.RPCS3.png",
+    "error": null
+  },
+  {
+    "id": "org.gnome.NetworkDisplays",
+    "metadata": "https://flathub.org/api/v2/appstream/org.gnome.NetworkDisplays",
+    "icon": "https://dl.flathub.org/media/org/gnome/NetworkDisplays.desktop/aaf24c55c04e26fe7fbcaaf6afd3d3be/icons/128x128/org.gnome.NetworkDisplays.desktop.png",
+    "error": null
+  },
+  {
+    "id": "org.gnome.TextEditor",
+    "metadata": "https://flathub.org/api/v2/appstream/org.gnome.TextEditor",
+    "icon": "https://dl.flathub.org/media/org/gnome/TextEditor/de8119d267983b35d5b68f7504bbb64c/icons/128x128/org.gnome.TextEditor.png",
+    "error": null
+  },
+  {
+    "id": "com.getpostman.Postman",
+    "metadata": "https://flathub.org/api/v2/appstream/com.getpostman.Postman",
+    "icon": "https://dl.flathub.org/media/com/getpostman/Postman/9e9c0009e44e133726e5932bacfba366/icons/128x128/com.getpostman.Postman.png",
+    "error": null
+  },
+  {
+    "id": "org.geogebra.GeoGebra",
+    "metadata": "https://flathub.org/api/v2/appstream/org.geogebra.GeoGebra",
+    "icon": "https://dl.flathub.org/media/org/geogebra/GeoGebra/1eb5bc2b60d4ba0f089853bdd62c5eda/icons/128x128/org.geogebra.GeoGebra.png",
+    "error": null
+  },
+  {
+    "id": "io.github.shiftey.Desktop",
+    "metadata": "https://flathub.org/api/v2/appstream/io.github.shiftey.Desktop",
+    "icon": "https://dl.flathub.org/media/io/github/shiftey.Desktop/8d98948ef8d3ac80c55f4ef46a38d2d9/icons/128x128/io.github.shiftey.Desktop.png",
+    "error": null
+  },
+  {
+    "id": "com.warlordsoftwares.youtube-downloader-4ktube",
+    "metadata": "https://flathub.org/api/v2/appstream/com.warlordsoftwares.youtube-downloader-4ktube",
+    "icon": "https://dl.flathub.org/media/com/warlordsoftwares/youtube-downloader-4ktube/00ba2e3d7585e664754165507ca4fe81/icons/128x128/com.warlordsoftwares.youtube-downloader-4ktube.png",
+    "error": null
+  },
+  {
+    "id": "com.makemkv.MakeMKV",
+    "metadata": "https://flathub.org/api/v2/appstream/com.makemkv.MakeMKV",
+    "icon": "https://dl.flathub.org/media/com/makemkv/MakeMKV/d28bcebf5a23f116f59a18c631fb921e/icons/128x128/com.makemkv.MakeMKV.png",
+    "error": null
+  },
+  {
+    "id": "com.jeffser.Alpaca",
+    "metadata": "https://flathub.org/api/v2/appstream/com.jeffser.Alpaca",
+    "icon": "https://dl.flathub.org/media/com/jeffser/Alpaca/05980b75a516acf84a5d6fad3eee0f32/icons/128x128/com.jeffser.Alpaca.png",
+    "error": null
+  },
+  {
+    "id": "org.gnome.SimpleScan",
+    "metadata": "https://flathub.org/api/v2/appstream/org.gnome.SimpleScan",
+    "icon": "https://dl.flathub.org/media/org/gnome/SimpleScan/247bcd8adbcba10aac970eeb3faf2b4b/icons/128x128/org.gnome.SimpleScan.png",
+    "error": null
+  },
+  {
+    "id": "com.prusa3d.PrusaSlicer",
+    "metadata": "https://flathub.org/api/v2/appstream/com.prusa3d.PrusaSlicer",
+    "icon": "https://dl.flathub.org/media/com/prusa3d/PrusaSlicer/79029443ebba8feb2ff4fbe74fda360a/icons/128x128/com.prusa3d.PrusaSlicer.png",
+    "error": null
+  },
+  {
+    "id": "com.github.Rosalie241.RMG",
+    "metadata": "https://flathub.org/api/v2/appstream/com.github.Rosalie241.RMG",
+    "icon": "https://dl.flathub.org/media/com/github/Rosalie241.RMG/19a8ba849a28bcc92bbd19d8c791188f/icons/128x128/com.github.Rosalie241.RMG.png",
+    "error": null
+  },
+  {
+    "id": "org.kde.haruna",
+    "metadata": "https://flathub.org/api/v2/appstream/org.kde.haruna",
+    "icon": "https://dl.flathub.org/media/org/kde/haruna/985593fd5274e0e973e1615287cbc489/icons/128x128/org.kde.haruna.png",
+    "error": null
+  },
+  {
+    "id": "org.virt_manager.virt-manager",
+    "metadata": "https://flathub.org/api/v2/appstream/org.virt_manager.virt-manager",
+    "icon": "https://dl.flathub.org/media/org/virt_manager/virt-manager/0ca7955911b3794f958365c39b1bd8a6/icons/128x128/org.virt_manager.virt-manager.png",
+    "error": null
+  },
+  {
+    "id": "org.gnome.Showtime",
+    "metadata": "https://flathub.org/api/v2/appstream/org.gnome.Showtime",
+    "icon": "https://dl.flathub.org/media/org/gnome/Showtime/429b14e257e1dc226c406cde0eaa4d39/icons/128x128/org.gnome.Showtime.png",
+    "error": null
+  },
+  {
+    "id": "eu.betterbird.Betterbird",
+    "metadata": "https://flathub.org/api/v2/appstream/eu.betterbird.Betterbird",
+    "icon": "https://dl.flathub.org/media/eu/betterbird/Betterbird/31d8f2b47a4f13b055fd121bafe51a17/icons/128x128/eu.betterbird.Betterbird.png",
+    "error": null
+  },
+  {
+    "id": "me.proton.Pass",
+    "metadata": "https://flathub.org/api/v2/appstream/me.proton.Pass",
+    "icon": "https://dl.flathub.org/media/me/proton/Pass/360ae3f222751b2a77a1e18e3bdb5362/icons/128x128/me.proton.Pass.png",
+    "error": null
+  },
+  {
+    "id": "com.ranfdev.DistroShelf",
+    "metadata": "https://flathub.org/api/v2/appstream/com.ranfdev.DistroShelf",
+    "icon": "https://dl.flathub.org/media/com/ranfdev/DistroShelf/a795d9521e32f6b32b6e226d368a25c1/icons/128x128/com.ranfdev.DistroShelf.png",
+    "error": null
+  },
+  {
+    "id": "com.github.xournalpp.xournalpp",
+    "metadata": "https://flathub.org/api/v2/appstream/com.github.xournalpp.xournalpp",
+    "icon": "https://dl.flathub.org/media/com/github/xournalpp.xournalpp/f749561a6863b04f4890fe795ecb5183/icons/128x128/com.github.xournalpp.xournalpp.png",
+    "error": null
+  },
+  {
+    "id": "dev.zed.Zed",
+    "metadata": "https://flathub.org/api/v2/appstream/dev.zed.Zed",
+    "icon": "https://dl.flathub.org/media/dev/zed/Zed/7af923c33493bb1defd5b160a4259243/icons/128x128/dev.zed.Zed.png",
+    "error": null
+  },
+  {
+    "id": "org.azahar_emu.Azahar",
+    "metadata": "https://flathub.org/api/v2/appstream/org.azahar_emu.Azahar",
+    "icon": "https://dl.flathub.org/media/org/azahar_emu/Azahar/bd7b9f476e9823b05b48bc6d46cac69e/icons/128x128/org.azahar_emu.Azahar.png",
+    "error": null
+  },
+  {
+    "id": "org.waywallen.waywallen",
+    "metadata": "https://flathub.org/api/v2/appstream/org.waywallen.waywallen",
+    "icon": "https://dl.flathub.org/media/org/waywallen/waywallen/f044673963fb1103088be7deec399b33/icons/128x128/org.waywallen.waywallen.png",
+    "error": null
+  },
+  {
+    "id": "org.flycast.Flycast",
+    "metadata": "https://flathub.org/api/v2/appstream/org.flycast.Flycast",
+    "icon": "https://dl.flathub.org/media/org/flycast/Flycast/171b80a8c8f3219d43482fa37e4596be/icons/128x128/org.flycast.Flycast.png",
+    "error": null
+  },
+  {
+    "id": "net.cozic.joplin_desktop",
+    "metadata": "https://flathub.org/api/v2/appstream/net.cozic.joplin_desktop",
+    "icon": "https://dl.flathub.org/media/net/cozic/joplin_desktop/0400efd10f68aa1b55f521ff7c205f74/icons/128x128/net.cozic.joplin_desktop.png",
+    "error": null
+  },
+  {
+    "id": "com.nextcloud.desktopclient.nextcloud",
+    "metadata": "https://flathub.org/api/v2/appstream/com.nextcloud.desktopclient.nextcloud",
+    "icon": "https://dl.flathub.org/media/com/nextcloud/desktopclient.nextcloud/8710cfdec86ef3bc1b52717ad8448748/icons/128x128/com.nextcloud.desktopclient.nextcloud.png",
+    "error": null
+  },
+  {
+    "id": "com.ktechpit.ultimate-media-downloader",
+    "metadata": "https://flathub.org/api/v2/appstream/com.ktechpit.ultimate-media-downloader",
+    "icon": "https://dl.flathub.org/media/com/ktechpit/ultimate-media-downloader/39837a6a61c01c5c3191ba4fd50184e9/icons/128x128/com.ktechpit.ultimate-media-downloader.png",
+    "error": null
+  },
+  {
+    "id": "tv.plex.PlexDesktop",
+    "metadata": "https://flathub.org/api/v2/appstream/tv.plex.PlexDesktop",
+    "icon": "https://dl.flathub.org/media/tv/plex/PlexDesktop/8f47778b3ea5bdcfc25f82145c6087fb/icons/128x128/tv.plex.PlexDesktop.png",
+    "error": null
+  },
+  {
+    "id": "org.gnome.Weather",
+    "metadata": "https://flathub.org/api/v2/appstream/org.gnome.Weather",
+    "icon": "https://dl.flathub.org/media/org/gnome/Weather/e718a6da7f664cb622c882e538821ae6/icons/128x128/org.gnome.Weather.png",
+    "error": null
+  },
+  {
+    "id": "io.mpv.Mpv",
+    "metadata": "https://flathub.org/api/v2/appstream/io.mpv.Mpv",
+    "icon": "https://dl.flathub.org/media/io/mpv/Mpv/4021dec7d90c2c9591fef27ba6a04f5b/icons/128x128/io.mpv.Mpv.png",
+    "error": null
+  },
+  {
+    "id": "io.github.streetpea.Chiaki4deck",
+    "metadata": "https://flathub.org/api/v2/appstream/io.github.streetpea.Chiaki4deck",
+    "icon": "https://dl.flathub.org/media/io/github/streetpea.Chiaki4deck/2fe7226c5e12e88e3292b17832669572/icons/128x128/io.github.streetpea.Chiaki4deck.png",
+    "error": null
+  },
+  {
+    "id": "org.gnome.clocks",
+    "metadata": "https://flathub.org/api/v2/appstream/org.gnome.clocks",
+    "icon": "https://dl.flathub.org/media/org/gnome/clocks/cf1afae44c663bad86644cdb9a4cf331/icons/128x128/org.gnome.clocks.png",
+    "error": null
+  },
+  {
+    "id": "org.gnome.Calendar",
+    "metadata": "https://flathub.org/api/v2/appstream/org.gnome.Calendar",
+    "icon": "https://dl.flathub.org/media/org/gnome/Calendar/901c035c47f4a4d84f353fb1408250d4/icons/128x128/org.gnome.Calendar.png",
+    "error": null
+  },
+  {
+    "id": "io.github.ryubing.Ryujinx",
+    "metadata": "https://flathub.org/api/v2/appstream/io.github.ryubing.Ryujinx",
+    "icon": "https://dl.flathub.org/media/io/github/ryubing.Ryujinx/96633a0efb58a5753b5714835ab91ee1/icons/128x128/io.github.ryubing.Ryujinx.png",
+    "error": null
+  },
+  {
+    "id": "org.godotengine.Godot",
+    "metadata": "https://flathub.org/api/v2/appstream/org.godotengine.Godot",
+    "icon": "https://dl.flathub.org/media/org/godotengine/Godot.desktop/7d0473583b3a7a60927f7e289669a20c/icons/128x128/org.godotengine.Godot.desktop.png",
+    "error": null
+  },
+  {
+    "id": "org.strawberrymusicplayer.strawberry",
+    "metadata": "https://flathub.org/api/v2/appstream/org.strawberrymusicplayer.strawberry",
+    "icon": "https://dl.flathub.org/media/org/strawberrymusicplayer/strawberry/89842dfbeda78c0ef4513ed8c232bac3/icons/128x128/org.strawberrymusicplayer.strawberry.png",
+    "error": null
+  },
+  {
+    "id": "org.gnome.Papers",
+    "metadata": "https://flathub.org/api/v2/appstream/org.gnome.Papers",
+    "icon": "https://dl.flathub.org/media/org/gnome/Papers/0b8da5d9d6e50b11da980d1074b98a9a/icons/128x128/org.gnome.Papers.png",
+    "error": null
+  },
+  {
+    "id": "org.jellyfin.JellyfinServer",
+    "metadata": "https://flathub.org/api/v2/appstream/org.jellyfin.JellyfinServer",
+    "icon": "https://dl.flathub.org/media/org/jellyfin/JellyfinServer/aa24a2cf12e6862763d8bc25714d0738/icons/128x128/org.jellyfin.JellyfinServer.png",
+    "error": null
+  },
+  {
+    "id": "io.github.benjamimgois.goverlay",
+    "metadata": "https://flathub.org/api/v2/appstream/io.github.benjamimgois.goverlay",
+    "icon": "https://dl.flathub.org/media/io/github/benjamimgois.goverlay/92b0cf9b5bf63e3e704e3e764749a9d7/icons/128x128/io.github.benjamimgois.goverlay.png",
+    "error": null
+  },
+  {
+    "id": "com.surfshark.Surfshark",
+    "metadata": "https://flathub.org/api/v2/appstream/com.surfshark.Surfshark",
+    "icon": "https://dl.flathub.org/media/com/surfshark/Surfshark/b012834e8914f89937170004d530d35e/icons/128x128/com.surfshark.Surfshark.png",
+    "error": null
+  },
+  {
+    "id": "org.kde.filelight",
+    "metadata": "https://flathub.org/api/v2/appstream/org.kde.filelight",
+    "icon": "https://dl.flathub.org/media/org/kde/filelight.desktop/7048e533959e4a0aeb51946651f85915/icons/128x128/org.kde.filelight.desktop.png",
+    "error": null
+  },
+  {
+    "id": "sh.ppy.osu",
+    "metadata": "https://flathub.org/api/v2/appstream/sh.ppy.osu",
+    "icon": "https://dl.flathub.org/media/sh/ppy/osu/a39c20b9ee2a2de86a1537761d9fd380/icons/128x128/sh.ppy.osu.png",
+    "error": null
+  },
+  {
+    "id": "net.mkiol.SpeechNote",
+    "metadata": "https://flathub.org/api/v2/appstream/net.mkiol.SpeechNote",
+    "icon": "https://dl.flathub.org/media/net/mkiol/SpeechNote/b81fddb4c9ca32a40fc9033344f73251/icons/128x128/net.mkiol.SpeechNote.png",
+    "error": null
+  },
+  {
+    "id": "com.adobe.Reader",
+    "metadata": "https://flathub.org/api/v2/appstream/com.adobe.Reader",
+    "icon": "https://dl.flathub.org/media/com/adobe/Reader/e21f4e705d8c01276e914574724f2edc/icons/128x128/com.adobe.Reader.png",
+    "error": null
+  },
+  {
+    "id": "net.ankiweb.Anki",
+    "metadata": "https://flathub.org/api/v2/appstream/net.ankiweb.Anki",
+    "icon": "https://dl.flathub.org/media/net/ankiweb/Anki/8d7ae916f367e81e7858f88a1028c50a/icons/128x128/net.ankiweb.Anki.png",
+    "error": null
+  },
+  {
+    "id": "com.valvesoftware.SteamLink",
+    "metadata": "https://flathub.org/api/v2/appstream/com.valvesoftware.SteamLink",
+    "icon": "https://dl.flathub.org/media/com/valvesoftware/SteamLink/149532aa485ea8325e83f9b45a46a50d/icons/128x128/com.valvesoftware.SteamLink.png",
+    "error": null
+  },
+  {
+    "id": "io.github.wiiznokes.fan-control",
+    "metadata": "https://flathub.org/api/v2/appstream/io.github.wiiznokes.fan-control",
+    "icon": "https://dl.flathub.org/media/io/github/wiiznokes.fan-control/5c1594eea8889835eb3d8d189c654ed6/icons/128x128/io.github.wiiznokes.fan-control.png",
+    "error": null
+  },
+  {
+    "id": "ch.tlaun.TL",
+    "metadata": "https://flathub.org/api/v2/appstream/ch.tlaun.TL",
+    "icon": "https://dl.flathub.org/media/ch/tlaun/TL/e9a269c78ba845ce9484c48eb41f0a3c/icons/128x128/ch.tlaun.TL.png",
+    "error": null
+  },
+  {
+    "id": "xyz.xclicker.xclicker",
+    "metadata": "https://flathub.org/api/v2/appstream/xyz.xclicker.xclicker",
+    "icon": "https://dl.flathub.org/media/xyz/xclicker/xclicker/4047e2526b7194db2d28e2ab08a6cfaa/icons/128x128/xyz.xclicker.xclicker.png",
+    "error": null
+  },
+  {
+    "id": "net.mullvad.MullvadBrowser",
+    "metadata": "https://flathub.org/api/v2/appstream/net.mullvad.MullvadBrowser",
+    "icon": "https://dl.flathub.org/media/net/mullvad/MullvadBrowser/f54858789604c601264a52325f37c88c/icons/128x128/net.mullvad.MullvadBrowser.png",
+    "error": null
+  },
+  {
+    "id": "ai.jan.Jan",
+    "metadata": "https://flathub.org/api/v2/appstream/ai.jan.Jan",
+    "icon": "https://dl.flathub.org/media/ai/jan/Jan/3a18161ee64add555a81f98125c5b496/icons/128x128/ai.jan.Jan.png",
+    "error": null
+  },
+  {
+    "id": "com.system76.Popsicle",
+    "metadata": "https://flathub.org/api/v2/appstream/com.system76.Popsicle",
+    "icon": "https://dl.flathub.org/media/com/system76/Popsicle/fc857df3d728d3116518fb22c02ea229/icons/128x128/com.system76.Popsicle.png",
+    "error": null
+  },
+  {
+    "id": "page.tesk.Refine",
+    "metadata": "https://flathub.org/api/v2/appstream/page.tesk.Refine",
+    "icon": "https://dl.flathub.org/media/page/tesk/Refine/aa9392adf24a05e41264fde25c553254/icons/128x128/page.tesk.Refine.png",
+    "error": null
+  },
+  {
+    "id": "com.rafaelmardojai.Blanket",
+    "metadata": "https://flathub.org/api/v2/appstream/com.rafaelmardojai.Blanket",
+    "icon": "https://dl.flathub.org/media/com/rafaelmardojai/Blanket/df29c39170fa43501793b18e10555563/icons/128x128/com.rafaelmardojai.Blanket.png",
+    "error": null
+  },
+  {
+    "id": "org.kde.gwenview",
+    "metadata": "https://flathub.org/api/v2/appstream/org.kde.gwenview",
+    "icon": "https://dl.flathub.org/media/org/kde/gwenview.desktop/9a15d3303d2599f17c6ffc5b78125e0d/icons/128x128/org.kde.gwenview.desktop.png",
+    "error": null
+  },
+  {
+    "id": "one.ablaze.floorp",
+    "metadata": "https://flathub.org/api/v2/appstream/one.ablaze.floorp",
+    "icon": "https://dl.flathub.org/media/one/ablaze/floorp/ac6576bfaa084415e2ce22c9b2382b0f/icons/128x128/one.ablaze.floorp.png",
+    "error": null
+  },
+  {
+    "id": "com.jgraph.drawio.desktop",
+    "metadata": "https://flathub.org/api/v2/appstream/com.jgraph.drawio.desktop",
+    "icon": "https://dl.flathub.org/media/com/jgraph/drawio.desktop/54357b729814e78c1f4ce5613eba1e2c/icons/128x128/com.jgraph.drawio.desktop.png",
+    "error": null
+  },
+  {
+    "id": "com.geeks3d.furmark",
+    "metadata": "https://flathub.org/api/v2/appstream/com.geeks3d.furmark",
+    "icon": "https://dl.flathub.org/media/com/geeks3d/furmark/0fc4b4cd52cd5daa359ee64764c02d81/icons/128x128/com.geeks3d.furmark.png",
+    "error": null
+  },
+  {
+    "id": "com.freerdp.FreeRDP",
+    "metadata": "https://flathub.org/api/v2/appstream/com.freerdp.FreeRDP",
+    "icon": "https://dl.flathub.org/media/com/freerdp/FreeRDP/60e123b6b34b43dba7e93f121f426e1d/icons/128x128/com.freerdp.FreeRDP.png",
+    "error": null
+  },
+  {
+    "id": "org.gnome.Firmware",
+    "metadata": "https://flathub.org/api/v2/appstream/org.gnome.Firmware",
+    "icon": "https://dl.flathub.org/media/org/gnome/Firmware/27efbe346cc20b160404148523cf7bd7/icons/128x128/org.gnome.Firmware.png",
+    "error": null
+  },
+  {
+    "id": "org.gnome.Maps",
+    "metadata": "https://flathub.org/api/v2/appstream/org.gnome.Maps",
+    "icon": "https://dl.flathub.org/media/org/gnome/Maps/b8ab1c34f77cc7428b614e821529fd9a/icons/128x128/org.gnome.Maps.png",
+    "error": null
+  },
+  {
+    "id": "io.gitlab.secu_design.usb-imager",
+    "metadata": "https://flathub.org/api/v2/appstream/io.gitlab.secu_design.usb-imager",
+    "icon": "https://dl.flathub.org/media/io/gitlab/secu_design.usb-imager/3544e2337d82549e67b3d48a8d57c6e4/icons/128x128/io.gitlab.secu_design.usb-imager.png",
+    "error": null
+  },
+  {
+    "id": "org.upscayl.Upscayl",
+    "metadata": "https://flathub.org/api/v2/appstream/org.upscayl.Upscayl",
+    "icon": "https://dl.flathub.org/media/org/upscayl/Upscayl/d407ddb4cb2ce379a1a84198fbe10b16/icons/128x128/org.upscayl.Upscayl.png",
+    "error": null
+  },
+  {
+    "id": "io.github.pwr_solaar.solaar",
+    "metadata": "https://flathub.org/api/v2/appstream/io.github.pwr_solaar.solaar",
+    "icon": "https://dl.flathub.org/media/io/github/pwr_solaar.solaar/3f6d43f52e1891b53b87b84014d524d1/icons/128x128/io.github.pwr_solaar.solaar.png",
+    "error": null
+  },
+  {
+    "id": "me.timschneeberger.jdsp4linux",
+    "metadata": "https://flathub.org/api/v2/appstream/me.timschneeberger.jdsp4linux",
+    "icon": "https://dl.flathub.org/media/me/timschneeberger/jdsp4linux/3a041701932b73db42f4cb3f31959896/icons/128x128/me.timschneeberger.jdsp4linux.png",
+    "error": null
+  },
+  {
+    "id": "org.gnome.World.PikaBackup",
+    "metadata": "https://flathub.org/api/v2/appstream/org.gnome.World.PikaBackup",
+    "icon": "https://dl.flathub.org/media/org/gnome/World.PikaBackup/bed402ded7f6226f1c6d7fc1f72fec9f/icons/128x128/org.gnome.World.PikaBackup.png",
+    "error": null
+  },
+  {
+    "id": "com.xnview.XnViewMP",
+    "metadata": "https://flathub.org/api/v2/appstream/com.xnview.XnViewMP",
+    "icon": "https://dl.flathub.org/media/com/xnview/XnViewMP/10d1a215f37e3de07ac6927be0c22dda/icons/128x128/com.xnview.XnViewMP.png",
+    "error": null
+  },
+  {
+    "id": "org.kicad.KiCad",
+    "metadata": "https://flathub.org/api/v2/appstream/org.kicad.KiCad",
+    "icon": "https://dl.flathub.org/media/org/kicad/KiCad/0a3d188d1ed72a9f8cb836f1e3462e7e/icons/128x128/org.kicad.KiCad.png",
+    "error": null
+  },
+  {
+    "id": "im.riot.Riot",
+    "metadata": "https://flathub.org/api/v2/appstream/im.riot.Riot",
+    "icon": "https://dl.flathub.org/media/im/riot/Riot/8f5e79fc32df95d9f7673cf88e37661c/icons/128x128/im.riot.Riot.png",
+    "error": null
+  },
+  {
+    "id": "com.fightcade.Fightcade",
+    "metadata": "https://flathub.org/api/v2/appstream/com.fightcade.Fightcade",
+    "icon": "https://dl.flathub.org/media/com/fightcade/Fightcade/997b3e0a68385330f24d86605cfc9fa1/icons/128x128/com.fightcade.Fightcade.png",
+    "error": null
+  },
+  {
+    "id": "org.kde.kate",
+    "metadata": "https://flathub.org/api/v2/appstream/org.kde.kate",
+    "icon": "https://dl.flathub.org/media/org/kde/kate.desktop/1b02a095b526381010dd92d6c64b1911/icons/128x128/org.kde.kate.desktop.png",
+    "error": null
+  },
+  {
+    "id": "info.cemu.Cemu",
+    "metadata": "https://flathub.org/api/v2/appstream/info.cemu.Cemu",
+    "icon": "https://dl.flathub.org/media/info/cemu/Cemu/da3bb40975670aef58531f4f125277e4/icons/128x128/info.cemu.Cemu.png",
+    "error": null
+  },
+  {
+    "id": "ru.yandex.Browser",
+    "metadata": "https://flathub.org/api/v2/appstream/ru.yandex.Browser",
+    "icon": "https://dl.flathub.org/media/ru/yandex/Browser/65fc95c1cde653dbec1deb97b4f95ec9/icons/128x128/ru.yandex.Browser.png",
+    "error": null
+  },
+  {
+    "id": "dev.eden_emu.eden",
+    "metadata": "https://flathub.org/api/v2/appstream/dev.eden_emu.eden",
+    "icon": "https://dl.flathub.org/media/dev/eden_emu/eden/75d26d912728e2da9badbb72b734120a/icons/128x128/dev.eden_emu.eden.png",
+    "error": null
+  },
+  {
+    "id": "dev.edfloreshz.CosmicTweaks",
+    "metadata": "https://flathub.org/api/v2/appstream/dev.edfloreshz.CosmicTweaks",
+    "icon": "https://dl.flathub.org/media/dev/edfloreshz/CosmicTweaks/67662cb89b24f917ed3c2d05b08e3311/icons/128x128/dev.edfloreshz.CosmicTweaks.png",
+    "error": null
+  },
+  {
+    "id": "com.jetbrains.IntelliJ-IDEA-Community",
+    "metadata": "https://flathub.org/api/v2/appstream/com.jetbrains.IntelliJ-IDEA-Community",
+    "icon": "https://dl.flathub.org/media/com/jetbrains/IntelliJ-IDEA-Community/3716646057e3a071be818748c91a31e8/icons/128x128/com.jetbrains.IntelliJ-IDEA-Community.png",
+    "error": null
+  },
+  {
+    "id": "com.github.k4zmu2a.spacecadetpinball",
+    "metadata": "https://flathub.org/api/v2/appstream/com.github.k4zmu2a.spacecadetpinball",
+    "icon": "https://dl.flathub.org/media/com/github/k4zmu2a.spacecadetpinball/6f98dd7f691cbc07a9c0a891902e7f89/icons/128x128/com.github.k4zmu2a.spacecadetpinball.png",
+    "error": null
+  },
+  {
+    "id": "com.transmissionbt.Transmission",
+    "metadata": "https://flathub.org/api/v2/appstream/com.transmissionbt.Transmission",
+    "icon": "https://dl.flathub.org/media/com/transmissionbt/Transmission/51a9d67280e197e1e7f090bdaae02431/icons/128x128/com.transmissionbt.Transmission.png",
+    "error": null
+  },
+  {
+    "id": "org.mozilla.vpn",
+    "metadata": "https://flathub.org/api/v2/appstream/org.mozilla.vpn",
+    "icon": "https://dl.flathub.org/media/org/mozilla/vpn/f952bf73081fcd4c097d9b4cfae822ac/icons/128x128/org.mozilla.vpn.png",
+    "error": null
+  },
+  {
+    "id": "io.github.seadve.Kooha",
+    "metadata": "https://flathub.org/api/v2/appstream/io.github.seadve.Kooha",
+    "icon": "https://dl.flathub.org/media/io/github/seadve.Kooha/4bae2311a8135a8e07572a95db8cfc7d/icons/128x128/io.github.seadve.Kooha.png",
+    "error": null
+  },
+  {
+    "id": "org.gnome.Extensions",
+    "metadata": "https://flathub.org/api/v2/appstream/org.gnome.Extensions",
+    "icon": "https://dl.flathub.org/media/org/gnome/Extensions/01b18c850c843a4ea33f8e27dd3a8faf/icons/128x128/org.gnome.Extensions.png",
+    "error": null
+  },
+  {
+    "id": "io.mgba.mGBA",
+    "metadata": "https://flathub.org/api/v2/appstream/io.mgba.mGBA",
+    "icon": "https://dl.flathub.org/media/io/mgba/mGBA/2f65671469625509ad1786c4cce32b30/icons/128x128/io.mgba.mGBA.png",
+    "error": null
+  },
+  {
+    "id": "dev.deedles.Trayscale",
+    "metadata": "https://flathub.org/api/v2/appstream/dev.deedles.Trayscale",
+    "icon": "https://dl.flathub.org/media/dev/deedles/Trayscale/3accdc40715529b0169494f95564abe7/icons/128x128/dev.deedles.Trayscale.png",
+    "error": null
+  },
+  {
+    "id": "org.deskflow.deskflow",
+    "metadata": "https://flathub.org/api/v2/appstream/org.deskflow.deskflow",
+    "icon": "https://dl.flathub.org/media/org/deskflow/deskflow/796ce398c57c1e3aed1ea14ab49aaf2d/icons/128x128/org.deskflow.deskflow.png",
+    "error": null
+  },
+  {
+    "id": "org.openshot.OpenShot",
+    "metadata": "https://flathub.org/api/v2/appstream/org.openshot.OpenShot",
+    "icon": "https://dl.flathub.org/media/org/openshot/OpenShot/70e490a97108be7b86e11ffcf7674bfa/icons/128x128/org.openshot.OpenShot.png",
+    "error": null
+  },
+  {
+    "id": "com.keepsolid.VpnUnlimited",
+    "metadata": "https://flathub.org/api/v2/appstream/com.keepsolid.VpnUnlimited",
+    "icon": "https://dl.flathub.org/media/com/keepsolid/VpnUnlimited/047e2ef77ab14df0639ba3ac2ed23df4/icons/128x128/com.keepsolid.VpnUnlimited.png",
+    "error": null
+  },
+  {
+    "id": "net.supertuxkart.SuperTuxKart",
+    "metadata": "https://flathub.org/api/v2/appstream/net.supertuxkart.SuperTuxKart",
+    "icon": "https://dl.flathub.org/media/net/supertuxkart/SuperTuxKart/ed6e8f73eecfb93757794648174bcf0e/icons/128x128/net.supertuxkart.SuperTuxKart.png",
+    "error": null
+  },
+  {
+    "id": "io.github.diegopvlk.Cine",
+    "metadata": "https://flathub.org/api/v2/appstream/io.github.diegopvlk.Cine",
+    "icon": "https://dl.flathub.org/media/io/github/diegopvlk.Cine/153811000c68e0700317fde05742d54e/icons/128x128/io.github.diegopvlk.Cine.png",
+    "error": null
+  },
+  {
+    "id": "no.bragefuglseth.Keypunch",
+    "metadata": "https://flathub.org/api/v2/appstream/no.bragefuglseth.Keypunch",
+    "icon": "https://dl.flathub.org/media/no/bragefuglseth/Keypunch/2321a50e2c765fcfa7f2f70503e5aabd/icons/128x128/no.bragefuglseth.Keypunch.png",
+    "error": null
+  },
+  {
+    "id": "com.parsecgaming.parsec",
+    "metadata": "https://flathub.org/api/v2/appstream/com.parsecgaming.parsec",
+    "icon": "https://dl.flathub.org/media/com/parsecgaming/parsec/6c86434c202127805387de778394b943/icons/128x128/com.parsecgaming.parsec.png",
+    "error": null
+  },
+  {
+    "id": "org.dupot.easyflatpak",
+    "metadata": "https://flathub.org/api/v2/appstream/org.dupot.easyflatpak",
+    "icon": "https://dl.flathub.org/media/org/dupot/easyflatpak/7477eb842dee04cf05eef850dfcc0da8/icons/128x128/org.dupot.easyflatpak.png",
+    "error": null
+  },
+  {
+    "id": "org.mamedev.MAME",
+    "metadata": "https://flathub.org/api/v2/appstream/org.mamedev.MAME",
+    "icon": "https://dl.flathub.org/media/org/mamedev/MAME/2f148eb3399537f36adeb744dddcb778/icons/128x128/org.mamedev.MAME.png",
+    "error": null
+  },
+  {
+    "id": "org.zotero.Zotero",
+    "metadata": "https://flathub.org/api/v2/appstream/org.zotero.Zotero",
+    "icon": "https://dl.flathub.org/media/org/zotero/Zotero/37fb6fc6ab034fd683cd59f4c4e7049e/icons/128x128/org.zotero.Zotero.png",
+    "error": null
+  },
+  {
+    "id": "org.cutwire.Drift",
+    "metadata": "https://flathub.org/api/v2/appstream/org.cutwire.Drift",
+    "icon": "https://dl.flathub.org/media/org/cutwire/Drift/6375df9c20048d7b53d39203fac22a5e/icons/128x128/org.cutwire.Drift.png",
+    "error": null
+  },
+  {
+    "id": "io.github.celluloid_player.Celluloid",
+    "metadata": "https://flathub.org/api/v2/appstream/io.github.celluloid_player.Celluloid",
+    "icon": "https://dl.flathub.org/media/io/github/celluloid_player.Celluloid/8168e3ac33b884791a9e011c7b12d24e/icons/128x128/io.github.celluloid_player.Celluloid.png",
+    "error": null
+  },
+  {
+    "id": "org.kde.kcalc",
+    "metadata": "https://flathub.org/api/v2/appstream/org.kde.kcalc",
+    "icon": "https://dl.flathub.org/media/org/kde/kcalc.desktop/93a9727399cf7d55f4beb47941e9ff46/icons/128x128/org.kde.kcalc.desktop.png",
+    "error": null
+  },
+  {
+    "id": "com.github.dail8859.NotepadNext",
+    "metadata": "https://flathub.org/api/v2/appstream/com.github.dail8859.NotepadNext",
+    "icon": "https://dl.flathub.org/media/com/github/dail8859.NotepadNext/b87f5b6e09ef41bb83e4a55d89ceec0a/icons/128x128/com.github.dail8859.NotepadNext.png",
+    "error": null
+  },
+  {
+    "id": "com.vixalien.sticky",
+    "metadata": "https://flathub.org/api/v2/appstream/com.vixalien.sticky",
+    "icon": "https://dl.flathub.org/media/com/vixalien/sticky/cd9151b9dcb3cf1eaeecfc8c8741e82c/icons/128x128/com.vixalien.sticky.png",
+    "error": null
+  },
+  {
+    "id": "be.alexandervanhee.gradia",
+    "metadata": "https://flathub.org/api/v2/appstream/be.alexandervanhee.gradia",
+    "icon": "https://dl.flathub.org/media/be/alexandervanhee/gradia/bab74d2ac1fb3c19e3fa4903c6a2075c/icons/128x128/be.alexandervanhee.gradia.png",
+    "error": null
+  },
+  {
+    "id": "net.code_industry.MasterPDFEditor",
+    "metadata": "https://flathub.org/api/v2/appstream/net.code_industry.MasterPDFEditor",
+    "icon": "https://dl.flathub.org/media/net/code_industry/MasterPDFEditor/616f16bb843d3809a20e0a2cb1cb62e7/icons/128x128/net.code_industry.MasterPDFEditor.png",
+    "error": null
+  },
+  {
+    "id": "dev.fredol.open-tv",
+    "metadata": "https://flathub.org/api/v2/appstream/dev.fredol.open-tv",
+    "icon": "https://dl.flathub.org/media/dev/fredol/open-tv/2ae83dec0e4a20b3c14009e62c26fdb5/icons/128x128/dev.fredol.open-tv.png",
+    "error": null
+  },
+  {
+    "id": "no.mifi.losslesscut",
+    "metadata": "https://flathub.org/api/v2/appstream/no.mifi.losslesscut",
+    "icon": "https://dl.flathub.org/media/no/mifi/losslesscut/24400b33bf25ed472706fb8c50663d5e/icons/128x128/no.mifi.losslesscut.png",
+    "error": null
+  },
+  {
+    "id": "org.x.Warpinator",
+    "metadata": "https://flathub.org/api/v2/appstream/org.x.Warpinator",
+    "icon": "https://dl.flathub.org/media/org/x/Warpinator/50b3f6a42a03115622f9a064a8d5c873/icons/128x128/org.x.Warpinator.png",
+    "error": null
+  },
+  {
+    "id": "io.github.radiolamp.mangojuice",
+    "metadata": "https://flathub.org/api/v2/appstream/io.github.radiolamp.mangojuice",
+    "icon": "https://dl.flathub.org/media/io/github/radiolamp.mangojuice/83e929b25673cea99b76b941dbac7891/icons/128x128/io.github.radiolamp.mangojuice.png",
+    "error": null
+  },
+  {
+    "id": "org.bleachbit.BleachBit",
+    "metadata": "https://flathub.org/api/v2/appstream/org.bleachbit.BleachBit",
+    "icon": "https://dl.flathub.org/media/org/bleachbit/BleachBit/278d657feed855ee6f061583de475783/icons/128x128/org.bleachbit.BleachBit.png",
+    "error": null
+  },
+  {
+    "id": "org.gnome.font-viewer",
+    "metadata": "https://flathub.org/api/v2/appstream/org.gnome.font-viewer",
+    "icon": "https://dl.flathub.org/media/org/gnome/font-viewer/388b0b0297e7199e8bf79d73cb5a575e/icons/128x128/org.gnome.font-viewer.png",
+    "error": null
+  },
+  {
+    "id": "ai.opencode.opencode",
+    "metadata": "https://flathub.org/api/v2/appstream/ai.opencode.opencode",
+    "icon": "https://dl.flathub.org/media/ai/opencode/opencode/a593e8db95f8188e70a87943c69f9897/icons/128x128/ai.opencode.opencode.png",
+    "error": null
+  },
+  {
+    "id": "io.bassi.Amberol",
+    "metadata": "https://flathub.org/api/v2/appstream/io.bassi.Amberol",
+    "icon": "https://dl.flathub.org/media/io/bassi/Amberol/33caa3c38e9eac5b83ce58b3cf7080ae/icons/128x128/io.bassi.Amberol.png",
+    "error": null
+  },
+  {
+    "id": "io.gitlab.theevilskeleton.Upscaler",
+    "metadata": "https://flathub.org/api/v2/appstream/io.gitlab.theevilskeleton.Upscaler",
+    "icon": "https://dl.flathub.org/media/io/gitlab/theevilskeleton.Upscaler/72b2efc8ca5ec095a6e7848e75e8eb7e/icons/128x128/io.gitlab.theevilskeleton.Upscaler.png",
+    "error": null
+  },
+  {
+    "id": "org.kde.kolourpaint",
+    "metadata": "https://flathub.org/api/v2/appstream/org.kde.kolourpaint",
+    "icon": "https://dl.flathub.org/media/org/kde/kolourpaint.desktop/1f6048021fee3956263419f180f7f52c/icons/128x128/org.kde.kolourpaint.desktop.png",
+    "error": null
+  },
+  {
+    "id": "io.github.realmazharhussain.GdmSettings",
+    "metadata": "https://flathub.org/api/v2/appstream/io.github.realmazharhussain.GdmSettings",
+    "icon": "https://dl.flathub.org/media/io/github/realmazharhussain.GdmSettings/cfb77e27794051424a16fb8567c99b24/icons/128x128/io.github.realmazharhussain.GdmSettings.png",
+    "error": null
+  },
+  {
+    "id": "org.polymc.PolyMC",
+    "metadata": "https://flathub.org/api/v2/appstream/org.polymc.PolyMC",
+    "icon": "https://dl.flathub.org/media/org/polymc/PolyMC/c389cb06aa0dac8841d96d9203942632/icons/128x128/org.polymc.PolyMC.png",
+    "error": null
+  },
+  {
+    "id": "com.unity.UnityHub",
+    "metadata": "https://flathub.org/api/v2/appstream/com.unity.UnityHub",
+    "icon": "https://dl.flathub.org/media/com/unity/UnityHub/226bdd1109f64a37683eb68154ba3cc4/icons/128x128/com.unity.UnityHub.png",
+    "error": null
+  },
+  {
+    "id": "org.gnome.gitlab.YaLTeR.VideoTrimmer",
+    "metadata": "https://flathub.org/api/v2/appstream/org.gnome.gitlab.YaLTeR.VideoTrimmer",
+    "icon": "https://dl.flathub.org/media/org/gnome/gitlab.YaLTeR.VideoTrimmer/45d748bc1bb2fe824c27b28e05b4c01c/icons/128x128/org.gnome.gitlab.YaLTeR.VideoTrimmer.png",
+    "error": null
+  },
+  {
+    "id": "io.github.tobagin.karere",
+    "metadata": "https://flathub.org/api/v2/appstream/io.github.tobagin.karere",
+    "icon": "https://dl.flathub.org/media/io/github/tobagin.karere/d7207e7075fbb64b18aa4528ae9f59f3/icons/128x128/io.github.tobagin.karere.png",
+    "error": null
+  },
+  {
+    "id": "hu.irl.cameractrls",
+    "metadata": "https://flathub.org/api/v2/appstream/hu.irl.cameractrls",
+    "icon": "https://dl.flathub.org/media/hu/irl/cameractrls/06eff53bbbf76ee55e249f16fc56dac6/icons/128x128/hu.irl.cameractrls.png",
+    "error": null
+  },
+  {
+    "id": "org.kde.kdeconnect",
+    "metadata": "https://flathub.org/api/v2/appstream/org.kde.kdeconnect",
+    "icon": null,
+    "error": "404 Client Error: Not Found for url: https://flathub.org/api/v2/appstream/org.kde.kdeconnect"
+  },
+  {
+    "id": "org.kde.falkon",
+    "metadata": "https://flathub.org/api/v2/appstream/org.kde.falkon",
+    "icon": "https://dl.flathub.org/media/org/kde/falkon.desktop/9c23696b13226da4636b4d78444c1a29/icons/128x128/org.kde.falkon.desktop.png",
+    "error": null
+  },
+  {
+    "id": "com.github.4gray.iptvnator",
+    "metadata": "https://flathub.org/api/v2/appstream/com.github.4gray.iptvnator",
+    "icon": null,
+    "error": "404 Client Error: Not Found for url: https://flathub.org/api/v2/appstream/com.github.4gray.iptvnator"
+  },
+  {
+    "id": "io.github.4gray.iptvnator",
+    "metadata": "https://flathub.org/api/v2/appstream/io.github.4gray.iptvnator",
+    "icon": null,
+    "error": "404 Client Error: Not Found for url: https://flathub.org/api/v2/appstream/io.github.4gray.iptvnator"
+  },
+  {
+    "id": "hbomax",
+    "source": "https://www.hbomax.com/",
+    "status": 200,
+    "final_url": "https://www.hbomax.com/"
+  },
+  {
+    "id": "appletv",
+    "source": "https://tv.apple.com/br",
+    "status": 200,
+    "final_url": "https://tv.apple.com/br",
+    "icon": "https://tv.apple.com/assets/favicon/favicon-180.png"
+  },
+  {
+    "id": "paramount",
+    "source": "https://www.paramountplus.com/br/",
+    "status": 200,
+    "final_url": "https://www.paramountplus.com/br/",
+    "icon": "https://www.paramountplus.com/favicon.ico"
+  },
+  {
+    "id": "crunchyroll",
+    "source": "https://www.crunchyroll.com/",
+    "status": 403,
+    "final_url": "https://www.crunchyroll.com/"
+  },
+  {
+    "id": "mubi",
+    "source": "https://mubi.com/pt",
+    "status": 200,
+    "final_url": "https://mubi.com/pt/br",
+    "icon": "https://mubi.com/favicon.ico"
+  },
+  {
+    "id": "viki",
+    "source": "https://www.viki.com/",
+    "status": 200,
+    "final_url": "https://www.viki.com/",
+    "icon": "https://1.viki.io/a/vwk8s-svelte/_app/immutable/assets/favicon.DtK0jNFg.ico"
+  },
+  {
+    "id": "pluto",
+    "source": "https://pluto.tv/br/",
+    "status": 200,
+    "final_url": "https://pluto.tv/br/",
+    "icon": "https://pluto.tv/favicon/regular.png"
+  },
+  {
+    "id": "vix",
+    "source": "https://www.vix.com/",
+    "error": "HTTPSConnectionPool(host='www.vixbrasiltv.com', port=443): Max retries exceeded with url: /tv/on-demand (Caused by NameResolutionError(\"HTTPSConnection(host='www.vixbrasiltv.com', port=443): Failed to resolve 'www.vixbrasiltv.com' ([Errno 11002] getaddrinfo failed)\"))"
+  },
+  {
+    "id": "looke",
+    "source": "https://www.looke.com.br/",
+    "status": 200,
+    "final_url": "https://www.looke.com.br/landingpage",
+    "icon": "https://www.looke.com.br/content/images/touch-icon-iphone.png"
+  },
+  {
+    "id": "netmovies",
+    "source": "https://www.netmovies.com.br/",
+    "error": "HTTPSConnectionPool(host='www.netmovies.com.br', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1082)')))"
+  },
+  {
+    "id": "belasartes",
+    "source": "https://www.belasartesalacarte.com.br/",
+    "status": 200,
+    "final_url": "https://www.belasartesalacarte.com.br/",
+    "icon": "https://www.belasartesalacarte.com.br/apple-touch-icon.png"
+  },
+  {
+    "id": "curiosity",
+    "source": "https://curiositystream.com/",
+    "status": 200,
+    "final_url": "https://curiositystream.com/",
+    "icon": "https://curiositystream.com/favicon.ico"
+  },
+  {
+    "id": "nebula",
+    "source": "https://nebula.tv/",
+    "status": 200,
+    "final_url": "https://nebula.tv/",
+    "icon": "https://nebula.tv/favicon-48x48.png"
+  },
+  {
+    "id": "wetv",
+    "source": "https://wetv.vip/",
+    "status": 200,
+    "final_url": "https://wetv.vip/",
+    "icon": "https://vfiles.wetvinfo.com/vupload/20200713/favicon.ico"
+  },
+  {
+    "id": "iqiyi",
+    "source": "https://www.iq.com/",
+    "status": 200,
+    "final_url": "https://www.iq.com/",
+    "icon": "https://www.iq.com/favicon.ico"
+  },
+  {
+    "id": "kocowa",
+    "source": "https://www.kocowa.com/",
+    "status": 200,
+    "final_url": "https://www.kocowa.com/",
+    "icon": "https://www.kocowa.com/favicon.ico"
+  },
+  {
+    "id": "bandplay",
+    "source": "https://bandplay.com/",
+    "status": 200,
+    "final_url": "https://bandplay.com/",
+    "icon": "https://bandplay.com/favicon-16.png"
+  },
+  {
+    "id": "sbt",
+    "source": "https://mais.sbt.com.br/",
+    "status": 200,
+    "final_url": "https://mais.sbt.com.br/",
+    "icon": "https://mais.sbt.com.br/favicon.ico"
+  },
+  {
+    "id": "redbull",
+    "source": "https://www.redbull.com/br-pt/live",
+    "status": 403,
+    "final_url": "https://www.redbull.com/br-pt/live",
+    "icon": "https://www.redbull.com/favicon.ico"
+  },
+  {
+    "id": "twitch",
+    "source": "https://www.twitch.tv/",
+    "status": 200,
+    "final_url": "https://www.twitch.tv/",
+    "icon": "https://assets.twitch.tv/assets/favicon-32-5c61aa63605bca4f740d.png"
+  },
+  {
+    "id": "kick",
+    "source": "https://kick.com/",
+    "status": 200,
+    "final_url": "https://kick.com/",
+    "icon": "https://kick.com/favicon.ico?favicon.1782phf7eyk2q.ico"
+  },
+  {
+    "id": "dailymotion",
+    "source": "https://www.dailymotion.com/",
+    "status": 200,
+    "final_url": "https://www.dailymotion.com/",
+    "icon": "https://static.neon-ssr.dailymotion.com/neon-seo-ssr/static/favicons/apple-icon-precomposed.12ce02f3a914dc2f3d6d.png"
+  },
+  {
+    "id": "vimeo",
+    "source": "https://vimeo.com/",
+    "status": 200,
+    "final_url": "https://vimeo.com/",
+    "icon": "https://f.vimeocdn.com/cms/images/apple-icon.png"
+  },
+  {
+    "id": "amazonmusic",
+    "source": "https://music.amazon.com.br/",
+    "status": 200,
+    "final_url": "https://music.amazon.com.br/",
+    "icon": "https://m.media-amazon.com/images/G/01/music/logo/1.0/smile_256x256.png"
+  },
+  {
+    "id": "soundcloud",
+    "source": "https://soundcloud.com/",
+    "status": 200,
+    "final_url": "https://soundcloud.com/",
+    "icon": "https://a-v2.sndcdn.com/assets/images/sc-icons/favicon-c93ce58b59.ico"
+  },
+  {
+    "id": "tunein",
+    "source": "https://tunein.com/",
+    "status": 200,
+    "final_url": "https://tunein.com/",
+    "icon": "https://cdn-web.tunein.com/assets/img/favicon-v2.ico"
+  },
+  {
+    "id": "radiogarden",
+    "source": "https://radio.garden/",
+    "status": 200,
+    "final_url": "https://radio.garden/",
+    "icon": "https://radio.garden/icons/favicon.png"
+  },
+  {
+    "id": "mixcloud",
+    "source": "https://www.mixcloud.com/",
+    "status": 200,
+    "final_url": "https://www.mixcloud.com/",
+    "icon": "https://www.mixcloud.com/assets/mix-CS3CZvyo-favicon.ico"
+  },
+  {
+    "id": "pocketcasts",
+    "source": "https://play.pocketcasts.com/",
+    "status": 403,
+    "final_url": "https://play.pocketcasts.com/"
+  },
+  {
+    "id": "nasa",
+    "source": "https://plus.nasa.gov/",
+    "status": 200,
+    "final_url": "https://plus.nasa.gov/",
+    "icon": "https://plus.nasa.gov/wp-content/uploads/2023/03/cropped-nasa-png-placeholder.png?w=32"
+  },
+  {
+    "id": "ted",
+    "source": "https://www.ted.com/",
+    "status": 200,
+    "final_url": "https://www.ted.com/",
+    "icon": "https://pa.tedcdn.com/apple-touch-icon.png"
+  },
+  {
+    "id": "khan",
+    "source": "https://pt.khanacademy.org/",
+    "status": 200,
+    "final_url": "https://pt.khanacademy.org/",
+    "icon": "https://pt.khanacademy.org/favicon.ico"
+  },
+  {
+    "id": "dazn",
+    "source": "https://www.dazn.com/pt-BR/home",
+    "status": 200,
+    "final_url": "https://www.dazn.com/pt-BR/home",
+    "icon": "https://www.dazn.com/favicon.ico"
+  },
+  {
+    "id": "f1tv",
+    "source": "https://f1tv.formula1.com/",
+    "status": 200,
+    "final_url": "https://f1tv.formula1.com/",
+    "icon": "https://f1tv.formula1.com/static/favicon.ico"
+  },
+  {
+    "id": "fifa",
+    "source": "https://www.plus.fifa.com/",
+    "status": 200,
+    "final_url": "https://www.dazn.com/competition/Competition:50kvbmxi5r9amj2e39hznggqj",
+    "icon": "https://www.dazn.com/favicon.ico"
+  },
+  {
+    "id": "xboxcloud",
+    "source": "https://www.xbox.com/pt-BR/play",
+    "status": 200,
+    "final_url": "https://www.xbox.com/pt-BR/play",
+    "icon": "https://assets.play.xbox.com/playxbox/static/media/apple-icon-180.8db22303.png"
+  },
+  {
+    "id": "geforcenow",
+    "source": "https://play.geforcenow.com/",
+    "status": 200,
+    "final_url": "https://play.geforcenow.com/mall/",
+    "icon": "https://play.geforcenow.com/mall/assets/img/GFN_logo1024_v2.png"
+  },
+  {
+    "id": "airconsole",
+    "source": "https://www.airconsole.com/",
+    "status": 200,
+    "final_url": "https://www.airconsole.com/",
+    "icon": "https://www.airconsole.com/favicon.ico"
+  },
+  {
+    "id": "photopea",
+    "source": "https://www.photopea.com/",
+    "status": 200,
+    "final_url": "https://www.photopea.com/",
+    "icon": "https://www.photopea.com/promo/icon512.png"
+  },
+  {
+    "id": "archive",
+    "source": "https://archive.org/",
+    "status": 200,
+    "final_url": "https://archive.org/",
+    "icon": "https://archive.org/offshoot_assets/favicon.ico"
+  },
+  {
+    "id": "prime",
+    "source": "https://www.primevideo.com/",
+    "status": 503,
+    "final_url": "https://www.primevideo.com/offers/nonprimehomepage?ref_=dv_web_force_root",
+    "icon": "https://www.primevideo.com/apple-touch-icon.png"
+  },
+  {
+    "id": "netflix",
+    "source": "https://www.netflix.com/browse",
+    "status": 200,
+    "final_url": "https://www.netflix.com/br-en/login?nextpage=https%3A%2F%2Fwww.netflix.com%2Fbrowse",
+    "icon": "https://assets.nflxext.com/us/ffe/siteui/common/icons/nficon2023.ico"
+  },
+  {
+    "id": "disney",
+    "source": "https://www.disneyplus.com/",
+    "status": 200,
+    "final_url": "https://www.disneyplus.com/",
+    "icon": "https://static-assets.bamgrid.com/product/disneyplus/favicons/disPlus-favicon-180x180.7d56f648dc95f591721935193bc827cb.png"
+  },
+  {
+    "id": "youtube",
+    "source": "https://www.youtube.com/tv",
+    "status": 200,
+    "final_url": "https://www.youtube.com/tv",
+    "icon": "https://www.gstatic.com/ytlr/img/favicon.ico"
+  },
+  {
+    "id": "globoplay",
+    "source": "https://globoplay.globo.com/",
+    "status": 200,
+    "final_url": "https://globoplay.globo.com/",
+    "icon": "https://s3.glbimg.com/v1/AUTH_c7def7ff66fe4b13beac0810ffbf780f/secure/favicon-b477e7f.ico"
+  },
+  {
+    "id": "spotify_web",
+    "source": "https://open.spotify.com/",
+    "status": 200,
+    "final_url": "https://open.spotify.com/",
+    "icon": "https://open.spotifycdn.com/cdn/images/favicon32.b64ecc03.png"
+  },
+  {
+    "id": "ytmusic",
+    "source": "https://music.youtube.com/",
+    "status": 200,
+    "final_url": "https://music.youtube.com/",
+    "icon": "https://music.youtube.com/favicon.ico"
+  },
+  {
+    "id": "applemusic",
+    "source": "https://music.apple.com/br/new",
+    "status": 200,
+    "final_url": "https://music.apple.com/br/new",
+    "icon": "https://music.apple.com/assets/favicon/favicon-180.png"
+  },
+  {
+    "id": "deezer",
+    "source": "https://www.deezer.com/br/",
+    "status": 200,
+    "final_url": "https://www.deezer.com/br/",
+    "icon": "https://cdn-files.dzcdn.net/cache/images/common/favicon/favicon.5e8e3be4042b873a7358.ico"
+  }
+]

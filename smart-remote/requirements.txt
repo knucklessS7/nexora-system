@@ -1,0 +1,4 @@
+aiohttp>=3.9,<4
+evdev>=1.6,<2
+qrcode>=7,<9
+pygame>=2.5,<3

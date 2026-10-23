@@ -1,0 +1,8 @@
+{
+  "source": "https://github.com/RetroGameSets/RGSX/releases/download/v2.7.0.8/RGSX_full_latest.zip",
+  "source_sha256": "776f082fbe6eb815b4f1b0ce32fcabd0f7e7a049c0219c262867bcb77e655552",
+  "linux_zip_sha256": "d1f938046ee45aa9d6362e74360fc44caf27d41932470916ea810754efa7c0b4",
+  "linux_expanded_allocated_bytes": 106528768,
+  "share_required_mib": 166,
+  "cache_bytes": 80110550
+}

@@ -1,0 +1,22 @@
+*.img
+*.img.gz
+*.iso
+*.xz
+*.zip
+*.pyc
+__pycache__/
+.codebase-memory/
+.pytest_cache/
+*.log
+*.pid
+*.partial
+*.tmp
+*.bak
+*.old
+chrome-profile/
+profile/
+Local Storage/
+IndexedDB/
+Service Worker/
+state/devices.json
+config.json

@@ -1,0 +1,411 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<theme defaultView="detailed">
+  <formatVersion>7</formatVersion>
+  <view name="basic, detailed">
+    <image name="background">
+      <path>/userdata/themes/aura-7-native/art/space.png</path>
+      <color>55667AFF</color>
+      <pos>0 0</pos>
+      <origin>0 0</origin>
+      <size>1 1</size>
+      <zIndex>1</zIndex>
+    </image>
+    <image name="topPanel" extra="true">
+      <path>/userdata/themes/aura-7-native/art/white.png</path>
+      <color>091523F7</color>
+      <pos>0 0</pos>
+      <origin>0 0</origin>
+      <size>1 0.135</size>
+      <zIndex>10</zIndex>
+    </image>
+    <image name="topLine" extra="true">
+      <path>/userdata/themes/aura-7-native/art/white.png</path>
+      <color>35C2FFFF</color>
+      <pos>0 0.133</pos>
+      <origin>0 0</origin>
+      <size>1 0.002</size>
+      <zIndex>20</zIndex>
+    </image>
+    <image name="logo">
+      <path>/userdata/themes/aura-7-native/art/logos/${system.theme}-w.png</path>
+      <path>/userdata/themes/aura-7-native/art/logos/${system.theme}-w.svg</path>
+      <path>/userdata/themes/aura-7-native/art/logos/${system.theme}.png</path>
+      <path>/userdata/themes/aura-7-native/art/logos/${system.theme}.svg</path>
+      <pos>0.5 0.072</pos>
+      <origin>0.5 0.5</origin>
+      <maxSize>0.22 0.072</maxSize>
+      <linearSmooth>true</linearSmooth>
+      <zIndex>30</zIndex>
+    </image>
+    <image name="logo" if="{system.collection}">
+      <path>/userdata/themes/aura-7-native/art/logos/collections/${system.theme}-w.png</path>
+      <path>/userdata/themes/aura-7-native/art/logos/collections/${system.theme}-w.svg</path>
+      <path>/userdata/themes/aura-7-native/art/logos/collections/${system.theme}.png</path>
+      <path>/userdata/themes/aura-7-native/art/logos/collections/${system.theme}.svg</path>
+    </image>
+    <text name="logoText">
+      <pos>0.04 0.035</pos>
+      <size>0.92 0.075</size>
+      <alignment>center</alignment>
+      <verticalAlignment>center</verticalAlignment>
+      <fontPath>/userdata/themes/aura-7-native/art/fonts/Cabin-Bold.ttf</fontPath>
+      <fontSize>0.044</fontSize>
+      <color>F4F8FFFF</color>
+      <zIndex>25</zIndex>
+    </text>
+    <text name="folderpath">
+      <pos>0.05 0.115</pos>
+      <size>0.90 0.020</size>
+      <alignment>center</alignment>
+      <fontPath>/userdata/themes/aura-7-native/art/fonts/Cabin-Regular.ttf</fontPath>
+      <fontSize>0.014</fontSize>
+      <color>7890A8FF</color>
+      <zIndex>30</zIndex>
+    </text>
+    <image name="bottomBar" extra="true">
+      <path>/userdata/themes/aura-7-native/art/white.png</path>
+      <color>07101CF5</color>
+      <pos>0 0.943</pos>
+      <origin>0 0</origin>
+      <size>1 0.057</size>
+      <zIndex>50</zIndex>
+    </image>
+    <helpsystem name="help">
+      <pos>0.018 0.953</pos>
+      <fontPath>/userdata/themes/aura-7-native/art/fonts/Cabin-Regular.ttf</fontPath>
+      <fontSize>0.019</fontSize>
+      <textColor>DDEBFAFF</textColor>
+      <iconColor>35C2FFFF</iconColor>
+      <zIndex>60</zIndex>
+    </helpsystem>
+  </view>
+  <view name="basic">
+    <textlist name="gamelist">
+      <pos>0.085 0.185</pos>
+      <size>0.830 0.710</size>
+      <lines>14</lines>
+      <alignment>left</alignment>
+      <horizontalMargin>0.018</horizontalMargin>
+      <fontPath>/userdata/themes/aura-7-native/art/fonts/Cabin-Regular.ttf</fontPath>
+      <fontSize>0.032</fontSize>
+      <primaryColor>A8B6C8FF</primaryColor>
+      <secondaryColor>7890A8FF</secondaryColor>
+      <selectedColor>FFFFFFFF</selectedColor>
+      <selectorColor>35C2FF3D</selectorColor>
+      <extraTextColor>60758BFF</extraTextColor>
+      <extraTextSelectedColor>C6EFFFFF</extraTextSelectedColor>
+      <scrollbarColor>35C2FF35</scrollbarColor>
+      <scrollbarSize>0.004</scrollbarSize>
+      <scrollbarAlignment>outerright</scrollbarAlignment>
+      <forceUppercase>false</forceUppercase>
+    </textlist>
+  </view>
+  <view name="detailed">
+    <image name="mediaPanel" extra="true">
+      <path>/userdata/themes/aura-7-native/art/white.png</path>
+      <color>0B1828E8</color>
+      <pos>0.045 0.170</pos>
+      <origin>0 0</origin>
+      <size>0.445 0.680</size>
+      <zIndex>8</zIndex>
+    </image>
+    <image name="detailDivider" extra="true">
+      <path>/userdata/themes/aura-7-native/art/white.png</path>
+      <color>35C2FF65</color>
+      <pos>0.505 0.170</pos>
+      <origin>0 0</origin>
+      <size>0.002 0.680</size>
+      <zIndex>15</zIndex>
+    </image>
+    <textlist name="gamelist">
+      <pos>0.535 0.185</pos>
+      <size>0.420 0.655</size>
+      <lines>12</lines>
+      <alignment>left</alignment>
+      <horizontalMargin>0.012</horizontalMargin>
+      <fontPath>/userdata/themes/aura-7-native/art/fonts/Cabin-Regular.ttf</fontPath>
+      <fontSize>0.024</fontSize>
+      <primaryColor>A8B6C8FF</primaryColor>
+      <secondaryColor>7890A8FF</secondaryColor>
+      <selectedColor>FFFFFFFF</selectedColor>
+      <selectorColor>35C2FF55</selectorColor>
+      <extraTextColor>60758BFF</extraTextColor>
+      <extraTextSelectedColor>C6EFFFFF</extraTextSelectedColor>
+      <scrollbarColor>35C2FF35</scrollbarColor>
+      <scrollbarSize>0.004</scrollbarSize>
+      <scrollbarAlignment>outerright</scrollbarAlignment>
+      <forceUppercase>false</forceUppercase>
+    </textlist>
+    <text name="md_name">
+      <pos>0.060 0.185</pos>
+      <size>0.405 0.050</size>
+      <fontPath>/userdata/themes/aura-7-native/art/fonts/Cabin-Bold.ttf</fontPath>
+      <fontSize>0.028</fontSize>
+      <color>F4F8FFFF</color>
+      <alignment>left</alignment>
+      <verticalAlignment>center</verticalAlignment>
+      <singleLineScroll>true</singleLineScroll>
+      <zIndex>30</zIndex>
+    </text>
+    <video name="md_video">
+      <pos>0.267 0.385</pos>
+      <origin>0.5 0.5</origin>
+      <maxSize>0.350 0.285</maxSize>
+      <delay>1.0</delay>
+      <showSnapshotNoVideo>true</showSnapshotNoVideo>
+      <showSnapshotDelay>true</showSnapshotDelay>
+      <defaultSnapshot>./art/grid/defgame.png</defaultSnapshot>
+      <loops>0</loops>
+      <zIndex>25</zIndex>
+    </video>
+    <text name="md_developer">
+      <pos>0.060 0.548</pos>
+      <size>0.270 0.030</size>
+      <fontPath>/userdata/themes/aura-7-native/art/fonts/Cabin-Regular.ttf</fontPath>
+      <fontSize>0.017</fontSize>
+      <color>77D9FFFF</color>
+      <singleLineScroll>true</singleLineScroll>
+      <zIndex>30</zIndex>
+    </text>
+    <text name="md_genre">
+      <pos>0.330 0.548</pos>
+      <size>0.135 0.030</size>
+      <alignment>right</alignment>
+      <fontPath>/userdata/themes/aura-7-native/art/fonts/Cabin-Regular.ttf</fontPath>
+      <fontSize>0.017</fontSize>
+      <color>7890A8FF</color>
+      <singleLineScroll>true</singleLineScroll>
+      <zIndex>30</zIndex>
+    </text>
+    <text name="md_lbl_releasedate">
+      <text>Data</text>
+      <pos>0.060 0.582</pos>
+      <size>0.055 0.026</size>
+      <fontPath>/userdata/themes/aura-7-native/art/fonts/Cabin-Regular.ttf</fontPath>
+      <fontSize>0.015</fontSize>
+      <color>60758BFF</color>
+    </text>
+    <datetime name="md_releasedate">
+      <pos>0.115 0.582</pos>
+      <size>0.125 0.026</size>
+      <fontPath>/userdata/themes/aura-7-native/art/fonts/Cabin-Regular.ttf</fontPath>
+      <fontSize>0.015</fontSize>
+      <color>A8B6C8FF</color>
+      <format>%d/%m/%Y</format>
+    </datetime>
+    <text name="md_lbl_players">
+      <text>Jogadores</text>
+      <pos>0.270 0.582</pos>
+      <size>0.090 0.026</size>
+      <fontPath>/userdata/themes/aura-7-native/art/fonts/Cabin-Regular.ttf</fontPath>
+      <fontSize>0.015</fontSize>
+      <color>60758BFF</color>
+    </text>
+    <text name="md_players">
+      <pos>0.365 0.582</pos>
+      <size>0.100 0.026</size>
+      <alignment>right</alignment>
+      <fontPath>/userdata/themes/aura-7-native/art/fonts/Cabin-Regular.ttf</fontPath>
+      <fontSize>0.015</fontSize>
+      <color>A8B6C8FF</color>
+    </text>
+    <text name="md_description">
+      <pos>0.060 0.630</pos>
+      <size>0.405 0.145</size>
+      <fontPath>/userdata/themes/aura-7-native/art/fonts/Cabin-Regular.ttf</fontPath>
+      <fontSize>0.018</fontSize>
+      <color>A8B6C8FF</color>
+      <lineSpacing>1.14</lineSpacing>
+      <zIndex>30</zIndex>
+    </text>
+    <rating name="md_rating">
+      <pos>0.060 0.800</pos>
+      <size>0.120 0.030</size>
+      <color>35C2FFFF</color>
+      <unfilledColor>2D4258FF</unfilledColor>
+      <unfilledPath>:/star_filled.svg</unfilledPath>
+      <zIndex>30</zIndex>
+    </rating>
+    <image name="md_hidden">
+      <path>/userdata/themes/aura-7-native/art/hidden.svg</path>
+      <pos>0.448 0.807</pos>
+      <origin>0.5 0.5</origin>
+      <maxSize>0.022 0.028</maxSize>
+      <color>7890A8FF</color>
+      <zIndex>30</zIndex>
+    </image>
+    <image name="md_kidgame">
+      <path>/userdata/themes/aura-7-native/art/kid.svg</path>
+      <pos>0.418 0.807</pos>
+      <origin>0.5 0.5</origin>
+      <maxSize>0.022 0.028</maxSize>
+      <color>7890A8FF</color>
+      <zIndex>30</zIndex>
+    </image>
+    <image name="md_manual">
+      <path>/userdata/themes/aura-7-native/art/manual.svg</path>
+      <pos>0.388 0.807</pos>
+      <origin>0.5 0.5</origin>
+      <maxSize>0.022 0.028</maxSize>
+      <color>7890A8FF</color>
+      <zIndex>30</zIndex>
+    </image>
+  </view>
+  <view name="menu">
+    <menuText name="menutitle">
+      <fontPath>/userdata/themes/aura-7-native/art/fonts/Cabin-Bold.ttf</fontPath>
+      <fontSize>0.030</fontSize>
+      <color>F4F8FFFF</color>
+    </menuText>
+    <menuText name="menufooter">
+      <fontPath>/userdata/themes/aura-7-native/art/fonts/Cabin-Regular.ttf</fontPath>
+      <fontSize>0.019</fontSize>
+      <color>60758BFF</color>
+    </menuText>
+    <menuText name="menutext">
+      <fontPath>/userdata/themes/aura-7-native/art/fonts/Cabin-Regular.ttf</fontPath>
+      <fontSize>0.026</fontSize>
+      <color>A8B6C8FF</color>
+      <separatorColor>FFFFFF0D</separatorColor>
+      <selectorColor>35C2FFA0</selectorColor>
+      <selectorColorEnd>6B7CFFA0</selectorColorEnd>
+      <selectedColor>FFFFFFFF</selectedColor>
+      <selectorGradientType>horizontal</selectorGradientType>
+    </menuText>
+    <menuTextSmall name="menutextsmall">
+      <fontPath>/userdata/themes/aura-7-native/art/fonts/Cabin-Regular.ttf</fontPath>
+      <fontSize>0.016</fontSize>
+      <color>77D9FFFF</color>
+    </menuTextSmall>
+    <menuGroup name="menugroup">
+      <fontPath>/userdata/themes/aura-7-native/art/fonts/Cabin-Bold.ttf</fontPath>
+      <fontSize>0.018</fontSize>
+      <color>77D9FFFF</color>
+      <backgroundColor>00000000</backgroundColor>
+      <lineSpacing>2.2</lineSpacing>
+    </menuGroup>
+    <menuBackground name="menubg">
+      <color>07101CF7</color>
+      <cornerSize>24 24</cornerSize>
+      <scrollbarColor>35C2FF40</scrollbarColor>
+      <scrollbarSize>0.003</scrollbarSize>
+      <scrollbarAlignment>innerright</scrollbarAlignment>
+    </menuBackground>
+  </view>
+  <view name="screen">
+    <text name="clock">
+      <color>C8E2F6</color>
+      <fontSize>.036</fontSize>
+      <pos>.82 .055</pos>
+      <size>.14 .055</size>
+      <alignment>right</alignment>
+      <verticalAlignment>center</verticalAlignment>
+    </text>
+    <controllerActivity name="controllerActivity">
+      <pos>.815 .126</pos>
+      <size>0.17 0.022</size>
+      <itemSpacing>0.003</itemSpacing>
+      <color>7890A8FF</color>
+      <imagePath>./art/gamepad.svg</imagePath>
+      <gunPath>./art/gun.svg</gunPath>
+      <wheelPath>./art/wheel.svg</wheelPath>
+      <activityColor>35C2FFFF</activityColor>
+      <hotkeyColor>6B7CFFFF</hotkeyColor>
+    </controllerActivity>
+  </view>
+  <view name="system">
+    <image name="background" extra="static">
+      <path>/userdata/themes/aura-7-native/art/space.png</path>
+      <pos>0 0</pos>
+      <size>1 1</size>
+      <origin>0 0</origin>
+      <zIndex>1</zIndex>
+    </image>
+    <image name="veil" extra="static">
+      <path>/userdata/themes/aura-7-native/art/white.png</path>
+      <pos>0 0</pos>
+      <size>1 1</size>
+      <origin>0 0</origin>
+      <zIndex>2</zIndex>
+      <color>02081255</color>
+    </image>
+    <text name="aura-brand" extra="static">
+      <text>A U R A</text>
+      <pos>0.042 0.03</pos>
+      <size>.6 .085</size>
+      <fontPath>/userdata/themes/aura-7-native/art/fonts/Cabin-Regular.ttf</fontPath>
+      <fontSize>0.077</fontSize>
+      <color>EAF5FF</color>
+      <zIndex>35</zIndex>
+    </text>
+    <text name="aura-subtitle" extra="static">
+      <text>F O R   B A T O C E R A</text>
+      <pos>0.046 0.118</pos>
+      <size>.6 .028</size>
+      <fontPath>/userdata/themes/aura-7-native/art/fonts/Cabin-Regular.ttf</fontPath>
+      <fontSize>0.02</fontSize>
+      <color>96B5CE</color>
+      <zIndex>35</zIndex>
+    </text>
+    <text name="aura-tagline" extra="static">
+      <text>J O G O S   ·   A P P S   ·   E N T R E T E N I M E N T O</text>
+      <pos>.045 .182</pos>
+      <size>.78 .035</size>
+      <fontPath>/userdata/themes/aura-7-native/art/fonts/Cabin-Regular.ttf</fontPath>
+      <fontSize>0.019</fontSize>
+      <color>91ADC4</color>
+      <zIndex>35</zIndex>
+    </text>
+    <carousel name="systemcarousel">
+      <type>horizontal</type>
+      <pos>0 .265</pos>
+      <size>1 .36</size>
+      <color>00000000</color>
+      <colorEnd>00000000</colorEnd>
+      <logoSize>.18 .34</logoSize>
+      <logoScale>1.13</logoScale>
+      <maxLogoCount>5.5</maxLogoCount>
+      <logoAlignment>center</logoAlignment>
+      <minLogoOpacity>.72</minLogoOpacity>
+      <transitionSpeed>250</transitionSpeed>
+      <zIndex>20</zIndex>
+    </carousel>
+    <image name="logo">
+      <path>/userdata/themes/aura-7-native/art/cards/unknown.png</path>
+      <path>/userdata/themes/aura-7-native/art/cards/${system.theme}.png</path>
+      <linearSmooth>true</linearSmooth>
+    </image>
+    <image name="selection-frame" extra="static">
+      <path>/userdata/themes/aura-7-native/art/focus.svg</path>
+      <pos>.410 .249</pos>
+      <size>.180 .38</size>
+      <origin>0 0</origin>
+      <zIndex>28</zIndex>
+    </image>
+    <text name="systemInfo">
+      <pos>0 1</pos>
+      <size>1 0</size>
+      <fontSize>.018</fontSize>
+      <color>00000000</color>
+      <alignment>center</alignment>
+      <backgroundColor>00000000</backgroundColor>
+      <zIndex>30</zIndex>
+    </text>
+    <image name="bottomBar" extra="static">
+      <path>/userdata/themes/aura-7-native/art/white.png</path>
+      <pos>0 .942</pos>
+      <size>1 .058</size>
+      <origin>0 0</origin>
+      <zIndex>40</zIndex>
+      <color>020913EE</color>
+    </image>
+    <helpsystem name="help">
+      <pos>.035 .956</pos>
+      <fontPath>/userdata/themes/aura-7-native/art/fonts/Cabin-Regular.ttf</fontPath>
+      <fontSize>.019</fontSize>
+      <textColor>C0D5E8</textColor>
+      <iconColor>53D8FF</iconColor>
+      <zIndex>50</zIndex>
+    </helpsystem>
+  </view>
+</theme>

@@ -1,0 +1,20 @@
+BATOCERA SMART REMOTE V8 — BASE ATUALIZADA
+
+Leia README.md e docs/LIMITACOES.md antes de trabalhar.
+
+Fluxo obrigatório:
+1) QR exibido somente na TV pelo scripts/local_panel.py, URL /pair.
+2) Celular abre /pair com PIN; NÃO exiba outro QR na página.
+3) /api/pair inicia solicitação e /api/pair-status aguarda aprovação física na TV.
+4) Somente com aprovação abre /control (ou se sessão ainda autorizada).
+5) /control contém exclusivamente Menu, Gamepad, Mouse, Apps.
+6) Ao sair revogar sessão e voltar ao PIN. Rota /control protegida no backend.
+
+Não fundir novamente as telas. Não quebrar autenticação existente. Não alterar a logo RGSX.
+Preservar eventos de botões pressionar/soltar, analógicos, reconnect e watchdog.
+Validar layout vertical Android/iPhone, Gamepad horizontal e controles reais no Batocera 43.
+Reportar separadamente simulações e testes físicos. Não declarar testado o que não foi executado.
+
+
+ATUALIZAÇÃO V8.2 — EDITOR DE GAMEPAD
+Preserve o novo botão Personalizar e o arquivo client/gamepad-editor.js. O editor altera apenas as posições e escalas locais; NÃO devem ser enviados comandos ao servidor enquanto arrasta ou redimensiona. Cada dispositivo usa armazenamento local e há presets separados para horizontal/vertical. Na instalação, o servidor precisa servir /gamepad-editor.js pela lista explícita em server/main.py. Não refaça nem desative o PIN ou o websocket existentes. Testar em Android/iPhone e em um jogo rodando no Batocera 43 real antes de dizer que está 100% validado.

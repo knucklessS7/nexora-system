@@ -1,0 +1,43 @@
+#!/bin/sh
+# Nexora image bootstrap: deploys only persistent UI/services on the first run.
+case "${1:-start}" in
+  start|"") ;;
+  *) exit 0 ;;
+esac
+SEED=/usr/share/nexora/installer
+BASE=/userdata/system/nexora-image
+STATE="$BASE/installed-v1"
+LOG="$BASE/bootstrap.log"
+[ -d "$SEED" ] || exit 0
+[ -f "$SEED/usb-recovery.sh" ] && bash "$SEED/usb-recovery.sh" || true
+[ -e "$STATE" ] && exit 0
+mkdir -p "$BASE"
+(
+  exec >>"$LOG" 2>&1
+  echo "Nexora system bootstrap $(date)"
+  mkdir -p "$BASE/installer" /userdata/system/aura /userdata/system/aura/state
+  cp -a "$SEED"/. "$BASE/installer"/
+  # Keep the menu silent on new systems. Game and emulator audio are unaffected.
+  CFG=/userdata/system/batocera.conf
+  if [ -f "$CFG" ]; then sed -i '/^audio\.bgmusic=/d' "$CFG"; fi
+  printf '%s\n' 'audio.bgmusic=0' >> "$CFG"
+  # Original first boot has streaming disabled by its Nexora defaults.
+  cp -a "$BASE/installer/payload"/. /userdata/system/aura/payload/
+  cp -f "$BASE/installer/payload/firstboot.sh" /userdata/system/aura/firstboot.sh
+  chmod +x /userdata/system/aura/firstboot.sh
+  /userdata/system/aura/firstboot.sh || true
+  python3 "$BASE/installer/row-fix/apply.py" || true
+  bash "$BASE/installer/neon-v81/install.sh" || true
+  bash "$BASE/installer/neon-v82/install.sh" || true
+  bash "$BASE/installer/neon-v83/install.sh" || true
+  python3 "$BASE/installer/space-fix/apply.py" || true
+  python3 "$BASE/installer/remove-fix/apply.py" || true
+  python3 "$BASE/installer/home-row/apply.py" || true
+  python3 "$BASE/installer/store-expansion/apply.py" || true
+  python3 "$BASE/installer/nexora-branding/apply.py" || true
+  python3 "$BASE/installer/hide-controller/apply.py" || true
+  REMOTE_STAGE="$BASE/installer/smart-remote-v7" bash "$BASE/installer/smart-remote-v7/usb-bootstrap.sh" || true
+  touch "$STATE"
+  sync
+) &
+exit 0

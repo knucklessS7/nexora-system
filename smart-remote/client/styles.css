@@ -1,0 +1,365 @@
+:root{--bg:#090c14;--surface:#111722;--surface2:#171f2c;--line:#263042;--muted:#8692a5;--text:#edf3ff;--accent:#eaa95b;--accent2:#ffc985;--radius:20px}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(ellipse at 52% -18%,#202b40 0,transparent 52%),var(--bg);color:var(--text);font-family:Inter,ui-sans-serif,system-ui,-apple-system,Segoe UI,Arial,sans-serif;line-height:1.4}button,input{font:inherit}button{cursor:pointer;touch-action:none;-webkit-tap-highlight-color:transparent}button:focus-visible,input:focus-visible{outline:2px solid var(--accent);outline-offset:3px}.shell{max-width:980px;margin:0 auto;padding:0 25px}.topbar{display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid #1d2635;padding:26px 0;gap:15px}.brand{display:flex;gap:12px;align-items:center}.brand-logo{border:1px solid #986f42;width:42px;height:42px;display:grid;place-items:center;color:var(--accent);font-size:29px;border-radius:12px}.brand strong{letter-spacing:1.6px;font-size:14px;display:block}.brand strong span{color:var(--accent)}.brand small{display:block;font-size:9px;letter-spacing:2px;color:var(--muted);margin-top:5px}.connection{border:1px solid var(--line);border-radius:100px;background:#141b27;padding:11px 15px;color:#b9c4d2;font-size:12px;display:flex;align-items:center;gap:9px}.connection i,.status-dot{background:#d6a352;width:7px;height:7px;border-radius:50%;display:inline-block}.chevron{font-size:16px;color:var(--muted)}.hero{position:relative;overflow:hidden;padding:63px 24px 62px 3px;min-height:255px}.hero:after{content:"";position:absolute;right:8%;top:22%;width:180px;height:180px;border:1px solid #354053;border-radius:36px;transform:rotate(35deg);opacity:.45}.hero-symbol{position:absolute;right:16%;top:32%;font-size:108px;color:#a97c46;opacity:.26;z-index:0}.hero-text{position:relative;z-index:1}.eyebrow{color:var(--accent);font-size:10px;font-weight:700;letter-spacing:2.3px}.tiny-line{display:inline-block;width:28px;vertical-align:middle;border-top:1px solid #ac7942;margin:0 8px}.hero h1{font-size:clamp(36px,7vw,67px);letter-spacing:-2.3px;line-height:1.05;margin:17px 0}.hero h1 em{font-style:normal;color:var(--accent)}.hero p{max-width:510px;color:#9daaba;font-size:14px}.pair-panel,.control-card{background:linear-gradient(155deg,#141b27,#0f1520);border:1px solid var(--line);border-radius:var(--radius);padding:25px}.pair-panel{margin-bottom:44px}.section-head{display:flex;align-items:center;justify-content:space-between;gap:12px}.section-head h2{margin:4px 0 0;font-size:23px;letter-spacing:-.6px}.secure{border:1px solid #755934;color:#eec08c;border-radius:100px;padding:7px 13px;font-size:10px;white-space:nowrap;letter-spacing:1px}.muted{color:#8d9bad;font-size:12px;line-height:1.7}.pair-grid{display:grid;grid-template-columns:190px 1fr;gap:25px;margin-top:20px}.qr-mock{background:#f2eadb;color:#1a202a;border-radius:12px;min-height:180px;display:flex;align-items:center;justify-content:center;flex-direction:column}.qr-shape{font-size:80px;line-height:1}.qr-mock span{font-size:11px;letter-spacing:3px;font-weight:800}.qr-mock small{font-size:10px;color:#6e7280;margin-top:5px}.pair-entry{display:flex;flex-direction:column;gap:10px;justify-content:center}.pair-entry label,#textForm label{font-size:12px;color:#b6c0d0}.pair-entry input,#textForm input{border:1px solid #344155;background:#0d131d;color:white;padding:15px 14px;border-radius:11px;min-width:0}.pair-entry input{letter-spacing:9px;font-size:20px}.primary{background:var(--accent);color:#17120d;border:0;border-radius:11px;font-weight:800;padding:13px 17px;display:flex;justify-content:space-between}.pair-entry p{font-size:11px;color:var(--muted);margin:0}.demo-link{border:0;background:transparent;color:var(--accent);padding:15px 0 0;font-size:12px}.control-area{padding-bottom:30px}.modehead{margin-bottom:18px}.status{font-size:10px;letter-spacing:1.4px;color:#b5a282}.tabs{display:grid;grid-template-columns:repeat(4,1fr);gap:9px;margin-bottom:15px}.tab{background:#131b27;border:1px solid var(--line);border-radius:11px;padding:14px 8px;color:#8391a3;display:flex;align-items:center;justify-content:center;gap:7px}.tab.active{background:#30281f;border-color:#8f6a42;color:#ffd29c}.panel{display:none}.panel.visible{display:block}.control-card{min-height:420px}.card-top{display:flex;justify-content:space-between;color:#8d9cad;letter-spacing:1.5px;font-size:10px;border-bottom:1px solid var(--line);padding-bottom:20px;gap:10px}.quick-actions{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin:22px 0}.quick-actions button,.sidekeys button,.mouse-actions button,.midbuttons button,.shoulders button{background:#202a39;color:#e8eef7;border:1px solid #344052;border-radius:12px;padding:13px;min-height:53px}.quick-actions button{font-size:21px;display:flex;flex-direction:column;align-items:center}.quick-actions small,.sidekeys small{font-size:10px;color:#98a6b9}.remote-layout{display:flex;justify-content:space-around;align-items:center;gap:20px;padding:14px 0 27px}.dpad{position:relative;width:270px;height:270px;display:grid;grid-template-columns:repeat(3,1fr);grid-template-rows:repeat(3,1fr);gap:5px}.dpad button{background:#253143;border:1px solid #3b4a5e;color:#d8e4f2;font-size:20px;border-radius:16px}.dpad .up{grid-column:2;grid-row:1}.dpad .left{grid-column:1;grid-row:2}.dpad .center{grid-column:2;grid-row:2;background:var(--accent);color:#21170e;font-size:19px;font-weight:900;border-color:#e5ad62}.dpad .right{grid-column:3;grid-row:2}.dpad .down{grid-column:2;grid-row:3}.dpad .neutral{background:#1a2431;color:#7b8da1;border-color:#364458}.sidekeys{display:flex;flex-direction:column;gap:10px}.sidekeys button{min-width:83px;display:flex;align-items:center;flex-direction:column;font-size:25px;padding:10px}.hint{text-align:center;color:#78879a;font-size:11px;padding-top:15px;border-top:1px solid #273143}.shoulders,.midbuttons{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-top:22px}.gamepad-layout{display:flex;justify-content:space-between;align-items:center;padding:20px 0;gap:15px}.dpad.small{width:205px;height:205px;flex-shrink:0}.dpad.small button{border-radius:11px}.face-buttons{width:205px;height:205px;position:relative;flex-shrink:0}.face-buttons button{position:absolute;width:64px;height:64px;border-radius:50%;background:#222e3f;border:2px solid #3d5269;color:white;font-size:20px;font-weight:800}.button-y{top:0;left:71px;color:#f2c64b!important}.button-x{top:71px;left:0;color:#6faaff!important}.button-b{top:71px;right:0;color:#e17b7b!important}.button-a{bottom:0;left:71px;color:#82c98d!important}.midbuttons{grid-template-columns:1fr 1fr;max-width:300px;margin:0 auto}.analog-grid{display:flex;gap:25px;justify-content:center;margin:30px auto}.analog-group{display:flex;flex-direction:column;align-items:center;gap:12px}.analog-group small{font-size:9px;letter-spacing:1px;color:var(--muted)}.joystick{width:112px;height:112px;background:#1c2736;border:2px solid #3c4c60;border-radius:50%;position:relative;touch-action:none}.knob{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);height:55px;width:55px;background:radial-gradient(circle at 36% 30%,#56677a,#273342);border:2px solid #6a788a;border-radius:50%;pointer-events:none}.touchpad{height:275px;background:linear-gradient(140deg,#1d2939,#131c29);border:1px dashed #4b5d76;border-radius:18px;display:flex;align-items:center;justify-content:center;flex-direction:column;touch-action:none;margin:22px 0;user-select:none}.touchpad-glyph{font-size:40px;color:var(--accent)}.touchpad strong{font-size:15px;margin-top:8px}.touchpad small{color:#91a0b0;font-size:11px}.mouse-actions{display:grid;grid-template-columns:repeat(2,1fr);gap:10px}.mouse-actions button{font-size:12px}#textForm{margin:25px 0}#textForm label{display:block;margin-bottom:10px}.type-row{display:flex;gap:8px}.type-row input{flex:1}.type-row button{background:var(--accent);border:0;border-radius:11px;padding:0 20px;font-weight:700;color:#24190e}.app-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:22px}.app-grid button{background:#1c2735;border:1px solid #364457;border-radius:13px;min-height:100px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:10px;color:#dfe7f3;font-size:12px}.app-grid b{font-size:27px}.red{color:#f15353}.green{color:#58cd83}.blue{color:#75b8ff}.purple{color:#be99ff}button.pressed{box-shadow:0 0 0 2px #ebad65 inset;filter:brightness(1.28);transform:scale(.97)}footer{padding:18px 0 38px;text-align:center;color:#8b9bb0}#eventStatus{padding:12px;border:1px solid #263448;border-radius:10px;background:#111926;font-size:12px;margin-bottom:20px}footer small{font-size:9px;letter-spacing:1px}@media(max-width:580px){.shell{padding:0 14px}.topbar{padding:18px 0}.brand strong{font-size:11px}.brand-logo{width:37px;height:37px}.connection{font-size:0;padding:9px 10px}.connection i{width:9px;height:9px}.chevron{font-size:15px}.hero{min-height:240px;padding:55px 10px 35px 2px}.hero:after{right:-65px}.hero-symbol{right:0}.hero p{font-size:12px;max-width:300px}.pair-panel,.control-card{padding:17px}.section-head h2{font-size:19px}.secure,.status{font-size:8px}.pair-grid{grid-template-columns:1fr;gap:17px}.qr-mock{min-height:130px}.qr-shape{font-size:52px}.tabs{gap:5px}.tab{padding:12px 4px;font-size:17px;flex-direction:column;gap:3px}.tab span{font-size:10px}.card-top{font-size:8px}.quick-actions{gap:6px}.quick-actions button{padding:9px 2px;font-size:20px;min-height:60px}.remote-layout{gap:10px;justify-content:space-between}.dpad{width:min(66vw,242px);height:min(66vw,242px);gap:4px}.dpad button{border-radius:12px;font-size:15px}.sidekeys button{min-width:56px;font-size:19px;padding:6px}.dpad.small{width:min(46vw,180px);height:min(46vw,180px)}.face-buttons{width:min(43vw,170px);height:min(43vw,170px)}.face-buttons button{height:50px;width:50px;font-size:16px}.button-y{left:calc(50% - 25px)}.button-x{top:calc(50% - 25px)}.button-b{top:calc(50% - 25px)}.button-a{left:calc(50% - 25px)}.shoulders{gap:5px}.shoulders button{padding:10px 0;min-height:40px;font-size:12px}.joystick{width:94px;height:94px}.app-grid{grid-template-columns:repeat(2,1fr)}.status{max-width:80px;text-align:right}.hint{font-size:10px}}@media(prefers-reduced-motion:no-preference){button{transition:transform .1s,filter .1s,background .15s}}
+
+/* V2: gamepad landscape-focused with compact mobile ergonomics */
+.gamepad-toolbar{display:flex;align-items:center;justify-content:space-between;gap:12px;padding-bottom:13px;border-bottom:1px solid var(--line)}
+.gamepad-identity{display:flex;flex-direction:column;gap:4px}.gamepad-identity strong{font-size:15px;letter-spacing:2px}.gamepad-player{font-size:10px;color:var(--muted);font-weight:500;letter-spacing:1px}
+.gamepad-tools{display:flex;gap:8px}.tool-button{border:1px solid #556070;background:#263346;color:#fff;padding:10px 13px;border-radius:12px;font-weight:700;font-size:12px;min-height:40px}
+.landscape-notice{display:none;align-items:center;gap:12px;background:#302519;border:1px solid #866139;border-radius:12px;padding:10px 12px;color:#ffd8a9;margin-top:10px}
+.landscape-notice>span{font-size:30px}.landscape-notice div{display:flex;flex:1;flex-direction:column;gap:4px}.landscape-notice strong{font-size:12px}.landscape-notice small{font-size:10px;color:#d2b796}.landscape-notice button{border:1px solid #b08851;background:#453323;color:#ffe1b8;border-radius:9px;padding:8px}
+html.gamepad-active,body.gamepad-active{overscroll-behavior:none}body.gamepad-active .panel#panel-gamepad{touch-action:pan-x pan-y}body.gamepad-active button,body.gamepad-active .joystick{user-select:none;-webkit-user-select:none;-webkit-touch-callout:none}
+@media(orientation:portrait) and (max-width:800px){body.gamepad-active .landscape-notice{display:flex}body.gamepad-active .gamepad-card{padding:12px}body.gamepad-active .analog-grid{gap:35px}}
+@media(orientation:landscape) and (max-height:600px) and (pointer:coarse){
+  body.gamepad-active{overflow:hidden}body.gamepad-active .shell{max-width:none;padding:0}body.gamepad-active .topbar,body.gamepad-active .hero,body.gamepad-active .pair-panel,body.gamepad-active .modehead,body.gamepad-active .tabs,body.gamepad-active footer{display:none!important}
+  body.gamepad-active .control-area{padding:0}body.gamepad-active #panel-gamepad{position:fixed;inset:0;z-index:20;background:#090c14;display:block;overflow:auto;overscroll-behavior:contain}
+  body.gamepad-active .gamepad-card{position:relative;min-height:100dvh;height:auto;max-height:none;padding:6px max(12px,env(safe-area-inset-right)) 6px max(12px,env(safe-area-inset-left));border:0;border-radius:0;background:radial-gradient(ellipse at 50% 20%,#223044,#090c14 75%);display:grid;grid-template-columns:minmax(92px,1fr) minmax(155px,1.6fr) minmax(92px,1fr);grid-template-rows:42px 37px minmax(116px,1fr) 42px;gap:5px 10px;align-items:center}
+  body.gamepad-active .gamepad-toolbar{grid-column:1/-1;grid-row:1;padding:0 0 4px}body.gamepad-active .gamepad-identity .eyebrow{font-size:8px}body.gamepad-active .gamepad-identity strong{font-size:12px}
+  body.gamepad-active .tool-button{min-height:32px;padding:6px 10px}body.gamepad-active .shoulders{grid-column:1/-1;grid-row:2;margin:0;gap:8px}body.gamepad-active .shoulders button{min-height:32px;padding:5px}
+  body.gamepad-active .gamepad-layout{display:contents}body.gamepad-active .dpad.small{grid-column:1;grid-row:3;width:min(25vw, min(36dvh, 160px));height:min(25vw, min(36dvh, 160px));justify-self:center}body.gamepad-active .face-buttons{grid-column:3;grid-row:3;width:min(25vw, min(36dvh, 160px));height:min(25vw, min(36dvh, 160px));justify-self:center}
+  body.gamepad-active .face-buttons button{width:clamp(35px,8dvh,53px);height:clamp(35px,8dvh,53px)}body.gamepad-active .button-y,body.gamepad-active .button-a{left:calc(50% - clamp(17.5px,4dvh,26.5px))}body.gamepad-active .button-x,body.gamepad-active .button-b{top:calc(50% - clamp(17.5px,4dvh,26.5px))}
+  body.gamepad-active .analog-grid{grid-column:2;grid-row:3;display:flex;justify-content:space-evenly;gap:12px;margin:0}body.gamepad-active .joystick{width:clamp(64px,18dvh,102px);height:clamp(64px,18dvh,102px)}body.gamepad-active .knob{width:48%;height:48%}body.gamepad-active .analog-group small{font-size:7px;white-space:nowrap}
+  body.gamepad-active .midbuttons{grid-column:2;grid-row:4;margin:0 auto;width:min(100%,250px)}body.gamepad-active .midbuttons button{min-height:32px;padding:4px;font-size:11px}body.gamepad-active .gamepad-hint{display:none}body.gamepad-active .landscape-notice{display:none}
+}
+@media(orientation:landscape) and (max-height:370px) and (pointer:coarse){body.gamepad-active .gamepad-card{grid-template-rows:34px 30px minmax(100px,1fr) 32px;gap:2px 8px}body.gamepad-active .gamepad-toolbar{padding-bottom:0}body.gamepad-active .gamepad-identity .eyebrow{display:none}body.gamepad-active .shoulders button{min-height:28px}body.gamepad-active .midbuttons button{min-height:28px}}
+
+/* V3: Soft Apps — conserva a estética original, com cartões suaves e duas colunas. */
+#panel-apps .apps-card{background:linear-gradient(145deg,#141d29 0%,#0d1521 100%);border-color:#283548;border-radius:19px;box-shadow:0 10px 30px rgba(0,0,0,.12)}
+#panel-apps .card-top{color:#8d9fb7;letter-spacing:1.55px}
+#panel-apps .apps-note{margin:20px 0 0;color:#97a8bd;line-height:1.8;max-width:530px}
+#panel-apps .app-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin-top:23px}
+#panel-apps .app-tile{min-width:0;min-height:112px;background:linear-gradient(155deg,#1c2a39,#1a2635);border:1px solid #324356;border-radius:15px;display:flex;flex-direction:column;justify-content:center;align-items:center;gap:12px;color:#f0f4fa;font-size:12px;font-weight:500;box-shadow:inset 0 1px rgba(255,255,255,.02);transition:background .16s,border-color .16s,transform .12s}
+#panel-apps .app-tile:hover{background:linear-gradient(155deg,#233448,#1d2b3d);border-color:#4a6079}
+#panel-apps .app-tile:active{transform:scale(.97)}
+#panel-apps .app-icon{height:41px;width:70px;display:flex;align-items:center;justify-content:center;font-weight:800;line-height:1}
+#panel-apps .app-youtube span{background:#fa3f4a;color:white;border-radius:9px;width:43px;height:30px;display:grid;place-items:center;font-size:17px;padding-left:2px}
+#panel-apps .app-disney{font-family:Georgia,serif;font-style:italic;font-weight:700;font-size:22px;color:#e1eaff;position:relative;letter-spacing:-1.2px}
+#panel-apps .app-disney:before{content:"";position:absolute;top:0;left:14px;width:47px;height:15px;border-top:2px solid #6fbfff;border-radius:60% 70% 0 0;transform:rotate(-10deg)}
+#panel-apps .disney-plus{font:700 15px ui-sans-serif,system-ui;color:#56c9ff;align-self:center;margin-left:1px}
+#panel-apps .app-netflix{font-size:37px;color:#fa4a56;font-family:Arial,sans-serif;font-weight:900}
+#panel-apps .app-prime{font-size:37px;color:#6baaff}
+#panel-apps .app-store{color:#b78cff}
+#panel-apps .app-store svg{height:39px;width:39px}
+#panel-apps .app-rgsx img{width:63px;height:48px;object-fit:contain;filter:drop-shadow(0 1px 3px rgba(0,0,0,.28))}
+@media(max-width:430px){#panel-apps .app-tile{min-height:102px}#panel-apps .app-grid{gap:11px}#panel-apps .apps-card{padding:17px}}
+
+/* V4 — sem contornos nos cartões de TODOS os apps e no painel Apps.
+   Preserva os cantos arredondados, sombras e distinção por contraste. */
+#panel-apps .apps-card {
+  border: 0;
+  background: linear-gradient(145deg,#121b28 0%,#0d1521 100%);
+  box-shadow: 0 10px 28px rgba(0,0,0,.13);
+}
+#panel-apps .app-tile {
+  border: 0;
+  background: linear-gradient(155deg,#1d2c3d,#182535);
+  box-shadow: 0 5px 14px rgba(0,0,0,.12);
+  transition: transform .15s ease, background .15s ease, box-shadow .15s ease;
+}
+#panel-apps .app-tile:hover {
+  border: 0;
+  background: linear-gradient(155deg,#25384b,#203143);
+  box-shadow: 0 7px 18px rgba(0,0,0,.16);
+}
+#panel-apps .app-tile:focus-visible {
+  outline: 2px solid #91b8eb;
+  outline-offset: 3px;
+}
+#panel-apps .app-tile:active { transform: scale(.97); }
+
+/* V7: ícones SVG consistentes na navegação superior */
+.tabs .tab .nav-icon{width:19px;height:19px;flex:none;display:block;stroke:currentColor;transition:transform .16s ease}
+.tabs .tab{font-size:14px;gap:8px;white-space:nowrap}
+.tabs .tab.active .nav-icon{stroke:#ffca82}
+@media(hover:hover){.tabs .tab:hover .nav-icon{transform:translateY(-1px)}}
+@media(max-width:580px){.tabs .tab{gap:5px}.tabs .tab .nav-icon{width:21px;height:21px}.tabs .tab span{font-size:10px}}
+
+button:disabled{opacity:.38;cursor:not-allowed} .joystick,.touchpad{user-select:none;-webkit-user-select:none}
+
+/* V8: fluxo separado — PIN após QR Code (somente na TV) e controle em página dedicada. */
+.pair-page,.controller-page{min-height:100vh;min-height:100dvh}
+.pair-page .pair-shell{width:min(100%,520px);min-height:100dvh;display:flex;flex-direction:column;padding-inline:clamp(16px,4vw,24px)}
+.pair-page .topbar{padding:20px 0;border-bottom:1px solid #1d2735}
+.pair-page .brand-logo{width:35px;height:35px;border-radius:11px;font-size:23px}
+.pair-page .brand strong{font-size:12px}
+.pair-page .brand small{font-size:8px;letter-spacing:1.3px}
+.connection-static{font-size:9px;letter-spacing:1.1px;border:none;background:#182333;white-space:nowrap;padding:9px 11px}
+.pair-page .pair-main{flex:1;display:flex;flex-direction:column;justify-content:center;padding:24px 0 14px}
+.pair-intro{padding:10px 3px 28px;position:relative;isolation:isolate;overflow:hidden}
+.pair-intro .eyebrow{font-size:9px;letter-spacing:2.2px}
+.pair-intro h1{font-size:clamp(34px,9vw,47px);line-height:1.06;letter-spacing:-1.85px;margin:22px 0 18px}
+.pair-intro h1 em{color:var(--accent);font-style:normal}
+.pair-intro p{color:#a6b5c8;max-width:340px;font-size:12px;line-height:1.7;margin:0}
+.pair-intro .intro-decoration{position:absolute;right:28px;top:15px;font-size:120px;color:#c18b51;opacity:.12;pointer-events:none}
+.pair-only-panel{margin:0;padding:clamp(18px,4.6vw,27px);background:linear-gradient(165deg,#151e2b,#101722);border-color:#293648;box-shadow:0 22px 40px rgba(0,0,0,.16)}
+.pair-only-panel .section-head h2{font-size:20px;margin-top:6px}
+.pair-only-panel .section-head .eyebrow{font-size:9px}
+.pair-only-panel .secure{font-size:9px;padding:8px 10px}
+.pair-only-panel .muted{font-size:12px;color:#a2b0c5;margin:18px 0 22px}
+#pairForm{display:flex;flex-direction:column;gap:11px}
+#pairForm label{font-size:12px;color:#c3d3e7}
+#pairForm input{width:100%;height:66px;text-align:center;letter-spacing:.5em;font-size:26px;font-weight:650;color:#fff;padding:14px;border:1px solid #344156;border-radius:12px;background:#0c1420;outline:none}
+#pairForm input:focus{border-color:#ecad61;box-shadow:0 0 0 3px rgba(235,170,92,.1)}
+#pairForm input::placeholder{color:#5e6b80;letter-spacing:.5em}
+#pairForm .primary{width:100%;min-height:54px;margin-top:5px;border-radius:12px;align-items:center;padding:13px 17px;font-size:14px;letter-spacing:.1px}
+#pairForm .primary:disabled{opacity:.7}
+.pair-message{font-size:11px;color:#9bacca;min-height:24px;line-height:1.5;margin:12px 0 0}
+.pair-message.error{color:#ffb0a9}
+.pair-wait:not([hidden]){display:flex;align-items:center;gap:11px;padding:11px;background:#162939;border-radius:11px;margin-top:12px}
+.pair-wait strong{display:block;font-size:12px;color:#e5f0fd}
+.pair-wait small{display:block;font-size:10px;color:#a8b9cb;line-height:1.5;margin-top:2px}
+.pair-loader{width:19px;height:19px;border:2px solid #647a93;border-top-color:#f0b36b;border-radius:100%;animation:spinner .8s linear infinite;flex:none}
+@keyframes spinner{to{transform:rotate(360deg)}}
+.pair-steps{display:flex;align-items:center;justify-content:space-between;gap:8px;margin-top:22px;padding-top:18px;border-top:1px solid #293648;color:#8090a5;font-size:10px;white-space:nowrap}
+.pair-steps b{color:#b4c6db;font-size:11px;padding-right:4px}
+.pair-steps .current-step,.pair-steps .current-step b{color:#f0b16a}
+.step-line{height:1px;min-width:8px;flex:1;background:#374255}
+.pair-security{text-align:center;margin:16px 0 0;color:#8b9bb0;font-size:10px}
+.pair-security span{color:var(--accent);font-size:14px}
+.pair-footer{text-align:center;padding:18px 0 14px;color:#65788f;letter-spacing:1.7px;font-size:10px}
+/* Standalone control screen: no login or scrolling past the PIN to play. */
+.controller-page .shell{width:min(100%,610px);margin:0 auto;padding-inline:clamp(11px,2.5vw,20px)}
+.controller-page .topbar{padding:16px 2px 14px;gap:8px}
+.controller-page .brand-logo{width:34px;height:34px;font-size:22px}
+.controller-page .brand strong{font-size:12px;letter-spacing:1.05px}
+.controller-page .brand small{font-size:8px;letter-spacing:1.1px}
+.controller-page .session-actions{display:flex;align-items:center;gap:8px}
+.controller-page .connection{padding:8px 9px;font-size:10px;gap:6px}
+.controller-page .logout-btn{min-height:36px;padding:8px 11px;border:1px solid #3b4756;background:#1d2633;color:#d4deeb;border-radius:10px;font-size:11px;white-space:nowrap;touch-action:manipulation}
+.controller-page .controller-main{min-height:calc(100dvh - 80px)}
+.controller-page .control-area{padding:14px 0 8px}
+.controller-page .modehead{margin-bottom:14px}
+.controller-page .section-head h2{font-size:22px}
+.controller-page .tabs{margin-bottom:14px;gap:7px}
+.controller-page .tabs .tab{min-height:64px;border-radius:13px}
+.controller-page .control-card{min-height:0;padding:18px;border-radius:19px}
+.controller-page .quick-actions{margin:18px 0 6px}
+.controller-page #panel-remote .remote-layout{position:relative;display:flex;justify-content:center;align-items:center;gap:0;padding:7px 0 20px;min-height:240px}
+.controller-page #panel-remote .dpad{width:min(52vw,230px);height:min(52vw,230px)}
+.controller-page #panel-remote .sidekeys{position:absolute;right:0;top:50%;transform:translateY(-50%);gap:8px}
+.controller-page #panel-remote .sidekeys button{min-width:61px;min-height:51px;padding:5px}
+.controller-page footer{padding:13px 0 18px}
+.controller-page footer #eventStatus{font-size:11px}
+@media(max-width:440px){
+ .pair-page .brand small{font-size:7px}
+ .pair-page .pair-main{padding-top:18px}
+ .pair-intro{padding-bottom:23px}
+ .pair-intro h1{margin:15px 0}
+ .pair-only-panel .muted{margin:13px 0 16px}
+ .pair-steps{font-size:9px;gap:6px}
+ .controller-page .status{font-size:8px;letter-spacing:.65px;max-width:100px}
+ .controller-page .brand small{letter-spacing:0.3px}
+ .controller-page .quick-actions{gap:6px}
+ .controller-page .quick-actions button{min-height:62px}
+ .controller-page .control-card{padding:15px}
+ .controller-page #panel-remote .remote-layout{min-height:250px}
+ .controller-page #panel-remote .dpad{width:min(62vw,235px,calc(100vw - 166px));height:min(62vw,235px,calc(100vw - 166px))}
+ .controller-page #panel-remote .sidekeys button{min-width:52px;min-height:50px}
+}
+@media(max-width:355px){
+ .controller-page .brand small{display:none}
+ .controller-page .connection{max-width:100px;overflow:hidden}
+ .controller-page .connection span{max-width:70px;text-overflow:ellipsis;white-space:nowrap;overflow:hidden}
+ .controller-page .tabs{gap:4px}
+ .controller-page .control-card{padding:11px}
+ .controller-page #panel-remote .dpad{width:min(60vw,205px,calc(100vw - 166px));height:min(60vw,205px,calc(100vw - 166px))}
+}
+@media(orientation:landscape) and (max-height:600px) and (pointer:coarse){
+ body.controller-page.gamepad-active .shell{width:100%;max-width:none}
+}
+@media(prefers-reduced-motion:reduce){.pair-loader{animation:none}}
+
+/* V8.2 — Editor de gamepad por aparelho. Posição e escala são apenas visuais.
+   Os handlers reais continuam nos MESMOS elementos do gamepad original. */
+.gamepad-card .gp-layout-item{
+  transform:translate3d(var(--gp-x,0px),var(--gp-y,0px),0) scale(var(--gp-scale,1));
+  transform-origin:center center;
+  will-change:transform;
+}
+.gamepad-card .gp-layout-item.pressed{
+  transform:translate3d(var(--gp-x,0px),var(--gp-y,0px),0) scale(calc(var(--gp-scale,1) * .97));
+}
+.gamepad-card.gp-editing .gp-layout-item.gp-selected{
+  outline:2px dashed #ffc477;outline-offset:3px;
+  box-shadow:0 0 0 3px #d997424d;
+  z-index:11;
+}
+.gamepad-card.gp-editing .gp-layout-item{
+  cursor:grab;touch-action:none;-webkit-user-select:none;user-select:none;
+}
+.gamepad-card.gp-editing .gp-layout-item:active{cursor:grabbing}
+.gamepad-card.gp-editing .gp-layout-item:not(.gp-selected){filter:brightness(1.07)}
+.gamepad-card .personalize-button{color:#f1ce9f;border-color:#86613a}
+.gamepad-card .personalize-button.is-editing{background:#694721;border-color:#f5b66d;color:white}
+.gp-editor[hidden]{display:none!important}
+.gp-editor{
+  background:#182435;border:1px solid #8e6c45;border-radius:12px;
+  padding:10px 12px;margin:10px 0 0;position:relative;z-index:30;
+  box-shadow:0 6px 24px #0005;color:#dce9fb;
+}
+.gp-editor-title{display:flex;align-items:baseline;justify-content:space-between;gap:10px;margin-bottom:8px}
+.gp-editor-title strong{font-size:12px;color:#ffc77c;white-space:nowrap}
+.gp-editor-title span{font-size:10px;color:#b4c4d8}
+.gp-editor-controls{display:flex;align-items:center;gap:7px;flex-wrap:wrap}
+.gp-editor-controls label{font-size:11px;white-space:nowrap}
+.gp-editor-controls output{color:#ffc477;display:inline-block;min-width:40px}
+.gp-editor-controls input{width:clamp(78px,14vw,160px);accent-color:#f1ad5c;touch-action:auto}
+.gp-editor-controls button{border:1px solid #53637b;background:#243347;border-radius:8px;color:#e2eafa;padding:7px 10px;min-height:32px;font-size:11px;touch-action:manipulation}
+.gp-editor-controls .gp-editor-save{background:#eaa95b;color:#19140d;font-weight:800;border:0}
+.gp-editor-controls .gp-editor-reset{color:#f4b4a1;border-color:#755b53}
+.gp-editor p{font-size:10px;color:#a9b9cb;margin:7px 0 0;line-height:1.4}
+@media(max-width:540px){
+  .gamepad-toolbar{flex-wrap:wrap}
+  .gamepad-tools{gap:5px}
+  .gamepad-card .tool-button{padding:7px 9px;min-height:33px;font-size:11px}
+  .gp-editor-title{display:block}
+  .gp-editor-title span{display:block;margin-top:3px}
+}
+@media(orientation:landscape) and (max-height:600px) and (pointer:coarse){
+  body.gamepad-active .gamepad-card{isolation:isolate}
+  body.gamepad-active .gamepad-card.gp-editing .gp-editor{
+    display:block;position:fixed;z-index:100;
+    bottom:max(4px,env(safe-area-inset-bottom));right:max(8px,env(safe-area-inset-right));
+    width:min(525px,80vw);padding:8px 11px;margin:0;
+    background:rgba(24,36,53,.96);backdrop-filter:blur(8px);
+  }
+  body.gamepad-active .gp-editor-title{margin-bottom:5px}
+  body.gamepad-active .gp-editor-title span{display:inline;margin-left:8px;font-size:9px}
+  body.gamepad-active .gp-editor-controls{gap:5px}
+  body.gamepad-active .gp-editor-controls button{padding:5px 8px;min-height:28px}
+  body.gamepad-active .gp-editor p{margin-top:4px;font-size:9px}
+}
+@media(orientation:landscape) and (max-height:370px) and (pointer:coarse){
+  body.gamepad-active .gamepad-card .personalize-button{padding:4px 8px}
+  body.gamepad-active .gp-editor-title span{display:none}
+}
+
+.gp-editor-title button{margin-left:auto;background:transparent;border:1px solid #51637a;border-radius:7px;color:#f4cb90;font-size:10px;padding:5px 8px;min-height:26px;white-space:nowrap;touch-action:manipulation}
+.gp-editor.is-collapsed{width:fit-content;max-width:230px}
+.gp-editor.is-collapsed .gp-editor-controls,.gp-editor.is-collapsed p,.gp-editor.is-collapsed .gp-editor-title span{display:none!important}
+.gp-editor.is-collapsed .gp-editor-title{margin:0;gap:12px;align-items:center}
+@media(orientation:landscape) and (max-height:600px) and (pointer:coarse){
+ body.gamepad-active .gamepad-card.gp-editing .gp-editor.is-collapsed{width:186px;bottom:max(5px,env(safe-area-inset-bottom))}
+}
+
+
+/* V8.3 — d-pad e face buttons editáveis em conjunto, com espaçamento interno. */
+.gamepad-card .gp-layout-item{
+  transform: translate(var(--gp-x,0), var(--gp-y,0)) scale(var(--gp-scale,1));
+  transform-origin:center center;
+}
+.gamepad-card .dpad.small.gp-layout-item{
+  gap: calc(5px * var(--gp-gap-scale,1));
+}
+.gamepad-card .face-buttons.gp-layout-item{
+  --gp-face-size: 64px;
+  --gp-face-space: calc(71px * var(--gp-gap-scale,1));
+}
+.gamepad-card .face-buttons.gp-layout-item button{
+  width: var(--gp-face-size);
+  height: var(--gp-face-size);
+  left: 50%;
+  top: 50%;
+  margin-left: calc(var(--gp-face-size) / -2);
+  margin-top: calc(var(--gp-face-size) / -2);
+}
+.gamepad-card .face-buttons.gp-layout-item .button-y{top:calc(50% - var(--gp-face-space));}
+.gamepad-card .face-buttons.gp-layout-item .button-x{left:calc(50% - var(--gp-face-space));}
+.gamepad-card .face-buttons.gp-layout-item .button-b{left:calc(50% + var(--gp-face-space));}
+.gamepad-card .face-buttons.gp-layout-item .button-a{top:calc(50% + var(--gp-face-space));}
+.gp-editor-controls input:disabled{opacity:.45}
+@media(max-width:580px){
+  .gamepad-card .face-buttons.gp-layout-item{
+    --gp-face-size: 50px;
+    --gp-face-space: calc(60px * var(--gp-gap-scale,1));
+  }
+}
+@media(orientation:landscape) and (pointer:coarse){
+  body.gamepad-active .face-buttons.gp-layout-item{
+    --gp-face-size: clamp(35px,8dvh,53px);
+    --gp-face-space: calc(clamp(35px,8dvh,53px) * 1.35 * var(--gp-gap-scale,1));
+  }
+}
+
+
+/* V8.4 — Safari/iOS: evitar a lupa, seleção de texto e menu Copiar/Traduzir
+   nos controles. Sem bloquear slider, botões de personalização ou inputs. */
+#panel-gamepad .gamepad-card,
+#panel-gamepad .gamepad-card *,
+#panel-remote button[data-command],
+#panel-remote button[data-command] *,
+#panel-mouse .touchpad,
+#panel-mouse .touchpad *,
+#panel-mouse .mouse-actions button,
+#panel-mouse .mouse-actions button *,
+#panel-apps .app-tile,
+#panel-apps .app-tile * {
+  -webkit-user-select: none !important;
+  user-select: none !important;
+  -webkit-touch-callout: none !important;
+  -webkit-user-drag: none;
+  -webkit-tap-highlight-color: transparent;
+}
+/* Gestos diretos do jogo nunca devem iniciar seleção ou rolagem da página.
+   O painel Personalizar (especialmente sliders e botões) mantém seu toque padrão. */
+#panel-gamepad .shoulders button,
+#panel-gamepad .dpad.small,
+#panel-gamepad .dpad.small button,
+#panel-gamepad .face-buttons,
+#panel-gamepad .face-buttons button,
+#panel-gamepad .midbuttons button,
+#panel-gamepad .joystick {
+  touch-action: none !important;
+  -webkit-touch-callout: none !important;
+}
+#panel-remote .dpad,
+#panel-remote .dpad button,
+#panel-remote .quick-actions button,
+#panel-remote .sidekeys button,
+#panel-mouse .touchpad {
+  touch-action: none;
+}
+
+
+/* V8.5 — Gamepad com editor refinado */
+.gp-editor-controls .gp-editor-mode{border:1px solid #856240;background:#2d261f;color:#ffd199;font-weight:700}
+.gp-editor-controls .gp-editor-mode[aria-pressed="false"]{background:#223042;border-color:#4c5e78;color:#d7e3f2}
+.analog-group small{display:none!important}
+.joystick .stick-label{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);font-size:14px;font-weight:800;letter-spacing:1px;color:#dbe6f3;opacity:.82;pointer-events:none;text-shadow:0 1px 2px rgba(0,0,0,.45)}
+.joystick .knob + .stick-label{z-index:2}
+.gamepad-card.gp-editing .dpad.small,.gamepad-card.gp-editing .face-buttons{pointer-events:none}
+.gamepad-card.gp-editing .dpad.small button,.gamepad-card.gp-editing .face-buttons button{pointer-events:auto}
+.gamepad-card .gp-layout-item.gp-selected.dpad.small,.gamepad-card .gp-layout-item.gp-selected.face-buttons{outline:none;box-shadow:none}
+.gamepad-card .gp-layout-item.gp-selected.dpad.small button:not(.center),
+.gamepad-card .gp-layout-item.gp-selected.face-buttons button{outline:2px dashed #f0b25f; outline-offset:4px; box-shadow:0 0 0 2px rgba(240,178,95,.18)}
+.gamepad-card.gp-edit-separate .gp-layout-item[data-layout-id="DPAD_GROUP"],
+.gamepad-card.gp-edit-separate .gp-layout-item[data-layout-id="FACE_GROUP"]{opacity:1}
+.gamepad-card.gp-editing.gp-edit-group .gp-layout-item[data-layout-id="GP_UP"],
+.gamepad-card.gp-editing.gp-edit-group .gp-layout-item[data-layout-id="GP_LEFT"],
+.gamepad-card.gp-editing.gp-edit-group .gp-layout-item[data-layout-id="GP_RIGHT"],
+.gamepad-card.gp-editing.gp-edit-group .gp-layout-item[data-layout-id="GP_DOWN"],
+.gamepad-card.gp-editing.gp-edit-group .gp-layout-item[data-layout-id="Y"],
+.gamepad-card.gp-editing.gp-edit-group .gp-layout-item[data-layout-id="X"],
+.gamepad-card.gp-editing.gp-edit-group .gp-layout-item[data-layout-id="B"],
+.gamepad-card.gp-editing.gp-edit-group .gp-layout-item[data-layout-id="A"]{outline:none!important;box-shadow:none!important}
+@media(max-width:580px){ .joystick .stick-label{font-size:12px} }
+
+/* V8.6: three quick actions. */
+.quick-actions{grid-template-columns:repeat(3,1fr)}
+
+/* Keep center and gaps in the continuous D-pad touch surface. */
+#panel-gamepad .dpad.small{touch-action:none;-webkit-user-select:none;user-select:none}
+#panel-gamepad .dpad.small .neutral{pointer-events:none}
+
+
+
+/* Labels are purely visual. The joystick surface owns every touch, including its center. */
+.joystick .stick-label{pointer-events:none;user-select:none;-webkit-user-select:none;-webkit-touch-callout:none;-webkit-tap-highlight-color:transparent;outline:none;border:0;box-shadow:none}
+.joystick{-webkit-tap-highlight-color:transparent;-webkit-touch-callout:none}
+/* The editor selects the analog group; highlight its circle, never its rectangular wrapper. */
+.gamepad-card .analog-group.gp-layout-item.gp-selected{outline:none;box-shadow:none}
+.gamepad-card.gp-editing .analog-group.gp-selected .joystick{box-shadow:0 0 0 2px #ffc477}
+
+/* Keep the Nexora mark inside its header icon on compact iPhone layouts. */
+.brand-logo{flex:0 0 42px;overflow:hidden;line-height:0}
+.brand-logo img{display:block;width:100%;height:100%;max-width:100%;max-height:100%;object-fit:contain;border-radius:inherit;pointer-events:none;user-select:none;-webkit-user-drag:none}
+.controller-page .brand-logo{flex-basis:34px}
+.pair-page .brand-logo{flex-basis:35px}

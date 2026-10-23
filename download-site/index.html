@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#061120" />
+    <meta
+      name="description"
+      content="Baixe a imagem Nexora para computadores x86-64 e grave em uma unidade de armazenamento."
+    />
+    <title>Nexora — Download</title>
+    <link rel="icon" href="assets/nexora-logo.png" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="ambient ambient-one"></div>
+    <div class="ambient ambient-two"></div>
+
+    <header class="topbar">
+      <a class="brand" href="#inicio" aria-label="Nexora, início">
+        <img src="assets/nexora-logo.png" alt="" />
+        <span>NEXORA</span>
+      </a>
+      <span class="version">x86-64 · versão 43.1</span>
+    </header>
+
+    <main id="inicio">
+      <section class="hero">
+        <div class="hero-copy">
+          <span class="eyebrow">SISTEMA PARA JOGOS E ENTRETENIMENTO</span>
+          <h1>Seu sistema.<br /><span>Pronto para começar.</span></h1>
+          <p class="lead">
+            Uma experiência Nexora preparada para PC, com interface própria,
+            Loja, Google Chrome e pareamento com celular.
+          </p>
+
+          <div class="actions">
+            <a class="download-button" id="downloadButton" href="https://drive.google.com/uc?export=download&amp;id=16hDuTUyifvMw2uQdFAJEtaPzGmJp_CSS">
+              <span class="download-icon" aria-hidden="true">↓</span>
+              <span>
+                <strong>Baixar Nexora</strong>
+                <small id="downloadStatus">Nexora-Limpa.img.gz · 8,27 GiB</small>
+              </span>
+            </a>
+            <a class="secondary-button" href="#instalar">Como instalar</a>
+          </div>
+
+          <p class="availability" id="availability">
+            Download hospedado no Google Drive. Confira o SHA-256 depois de baixar.
+          </p>
+        </div>
+
+        <div class="system-card" aria-label="Informações da imagem Nexora">
+          <div class="logo-stage">
+            <div class="orbit orbit-one"></div>
+            <div class="orbit orbit-two"></div>
+            <img src="assets/nexora-logo.png" alt="Logotipo Nexora" />
+          </div>
+          <div class="system-meta">
+            <span>Imagem oficial</span>
+            <strong>Nexora x86-64</strong>
+            <div class="meta-grid">
+              <div><small>FORMATO</small><b>IMG.GZ</b></div>
+              <div><small>TAMANHO</small><b>8,27 GiB</b></div>
+              <div><small>DESTINO</small><b>16 GB+</b></div>
+              <div><small>BASE</small><b>43.1</b></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="install" id="instalar">
+        <div class="section-heading">
+          <span class="eyebrow">INSTALAÇÃO</span>
+          <h2>Três passos para começar</h2>
+        </div>
+        <div class="steps">
+          <article><span>01</span><h3>Baixe</h3><p>Salve o arquivo <b>Nexora-Limpa.img.gz</b> no computador.</p></article>
+          <article><span>02</span><h3>Grave</h3><p>Abra no Balena Etcher e escolha uma unidade USB ou disco de pelo menos 16 GB.</p></article>
+          <article><span>03</span><h3>Inicie</h3><p>Selecione a unidade no menu de boot do computador e aguarde o Nexora.</p></article>
+        </div>
+      </section>
+
+      <section class="verify" aria-labelledby="verify-title">
+        <div>
+          <span class="eyebrow">INTEGRIDADE</span>
+          <h2 id="verify-title">Download verificável</h2>
+          <p>Compare o SHA-256 depois do download para confirmar que o arquivo chegou sem alterações.</p>
+        </div>
+        <button class="hash" id="copyHash" type="button" title="Copiar SHA-256">
+          <code>c671b9dfb9b35d1dae4b19f00d686b48eec42b5ea6ad68c400ae3b2caa9d0db9</code>
+          <span id="copyLabel">Copiar</span>
+        </button>
+      </section>
+    </main>
+
+    <footer>
+      <span>NEXORA</span>
+      <p>Sistema independente personalizado para computadores x86-64.</p>
+    </footer>
+
+    <script src="site.js"></script>
+  </body>
+</html>

@@ -1,0 +1,914 @@
+[
+  {
+    "id": "prime",
+    "site": "https://www.primevideo.com/",
+    "status": null,
+    "source": null,
+    "native": [
+      76,
+      76
+    ],
+    "final": [
+      76,
+      76
+    ],
+    "improved": false
+  },
+  {
+    "id": "disney",
+    "site": "https://www.disneyplus.com/",
+    "status": 200,
+    "source": "https://static-assets.bamgrid.com/product/disneyplus/favicons/mask-icon-aurora.86b2f302cf50180b25ddd8835041b1c3.svg",
+    "native": [
+      512,
+      512
+    ],
+    "final": [
+      512,
+      512
+    ],
+    "improved": true
+  },
+  {
+    "id": "youtube",
+    "site": "https://www.youtube.com/tv",
+    "status": 200,
+    "source": "https://www.youtube.com/img/desktop/yt_1200.png",
+    "native": [
+      1200,
+      1200
+    ],
+    "final": [
+      512,
+      512
+    ],
+    "improved": true
+  },
+  {
+    "id": "globoplay",
+    "site": "https://globoplay.globo.com/",
+    "status": 200,
+    "source": "https://s3.glbimg.com/v1/AUTH_2caf29d99e86401197555831070efae8/secure/icon-logo-512x512.png",
+    "native": [
+      512,
+      512
+    ],
+    "final": [
+      512,
+      512
+    ],
+    "improved": true
+  },
+  {
+    "id": "spotify_web",
+    "site": "https://open.spotify.com/",
+    "status": 200,
+    "source": "https://open.spotifycdn.com/cdn/images/icons/Spotify_MWP_512.50dd387d.png",
+    "native": [
+      512,
+      512
+    ],
+    "final": [
+      512,
+      512
+    ],
+    "improved": true
+  },
+  {
+    "id": "ytmusic",
+    "site": "https://music.youtube.com/",
+    "status": 200,
+    "source": "https://music.youtube.com/img/on_platform_logo_dark.svg",
+    "native": [
+      512,
+      173
+    ],
+    "final": [
+      512,
+      173
+    ],
+    "improved": true
+  },
+  {
+    "id": "applemusic",
+    "site": "https://music.apple.com/br/new",
+    "status": 200,
+    "source": "https://music.apple.com/assets/favicon/favicon.svg",
+    "native": [
+      512,
+      512
+    ],
+    "final": [
+      512,
+      512
+    ],
+    "improved": true
+  },
+  {
+    "id": "deezer",
+    "site": "https://www.deezer.com/br/",
+    "status": 200,
+    "source": "https://cdn-files.dzcdn.net/cache/images/common/favicon/favicon-240x240.bb3a6a29ad16a77f10cb.png",
+    "native": [
+      240,
+      240
+    ],
+    "final": [
+      240,
+      240
+    ],
+    "improved": true
+  },
+  {
+    "id": "appletv",
+    "site": "https://tv.apple.com/br",
+    "status": 200,
+    "source": "https://tv.apple.com/assets/app-icons/pwa-manifest/tv-icon_512.png",
+    "native": [
+      512,
+      512
+    ],
+    "final": [
+      512,
+      512
+    ],
+    "improved": true
+  },
+  {
+    "id": "paramount",
+    "site": "https://www.paramountplus.com/br/",
+    "status": 200,
+    "source": "https://www.paramountplus.com/favicon.ico",
+    "native": [
+      256,
+      256
+    ],
+    "final": [
+      256,
+      256
+    ],
+    "improved": true
+  },
+  {
+    "id": "mubi",
+    "site": "https://mubi.com/pt",
+    "status": 200,
+    "source": "https://mubi.com/apple-touch-icon.png?ver=2",
+    "native": [
+      180,
+      180
+    ],
+    "final": [
+      180,
+      180
+    ],
+    "improved": true
+  },
+  {
+    "id": "viki",
+    "site": "https://www.viki.com/",
+    "status": 200,
+    "source": "https://1.viki.io/a/vwk8s-svelte/_app/immutable/assets/apple-touch-icon-192x192.DaKB6Rfm.png",
+    "native": [
+      192,
+      192
+    ],
+    "final": [
+      192,
+      192
+    ],
+    "improved": true
+  },
+  {
+    "id": "pluto",
+    "site": "https://pluto.tv/br/",
+    "status": 200,
+    "source": "https://pluto.tv/favicon/og_logo.png",
+    "native": [
+      512,
+      512
+    ],
+    "final": [
+      512,
+      512
+    ],
+    "improved": true
+  },
+  {
+    "id": "belasartes",
+    "site": "https://www.belasartesalacarte.com.br/",
+    "status": 200,
+    "source": "https://www.belasartesalacarte.com.br/safari-pinned-tab.svg",
+    "native": [
+      512,
+      512
+    ],
+    "final": [
+      512,
+      512
+    ],
+    "improved": true
+  },
+  {
+    "id": "curiosity",
+    "site": "https://curiositystream.com/",
+    "status": 200,
+    "source": "https://curiositystream.com/android-chrome-512x512.png",
+    "native": [
+      512,
+      512
+    ],
+    "final": [
+      512,
+      512
+    ],
+    "improved": true
+  },
+  {
+    "id": "nebula",
+    "site": "https://nebula.tv/",
+    "status": 200,
+    "source": "https://nebula.tv/android-chrome-512x512.png",
+    "native": [
+      512,
+      512
+    ],
+    "final": [
+      512,
+      512
+    ],
+    "improved": true
+  },
+  {
+    "id": "wetv",
+    "site": "https://wetv.vip/",
+    "status": 200,
+    "source": "https://vm.gtimg.cn/tencentvideo/m_wetv/images/logo512.png",
+    "native": [
+      512,
+      512
+    ],
+    "final": [
+      512,
+      512
+    ],
+    "improved": true
+  },
+  {
+    "id": "iqiyi",
+    "site": "https://www.iq.com/",
+    "status": 200,
+    "source": "https://www.iq.com/favicon.ico",
+    "native": [
+      288,
+      288
+    ],
+    "final": [
+      288,
+      288
+    ],
+    "improved": true
+  },
+  {
+    "id": "sbt",
+    "site": "https://mais.sbt.com.br/",
+    "status": 200,
+    "source": null,
+    "native": [
+      128,
+      128
+    ],
+    "final": [
+      128,
+      128
+    ],
+    "improved": false
+  },
+  {
+    "id": "kick",
+    "site": "https://kick.com/",
+    "status": 200,
+    "source": "https://kick.com/apple-icon.png?apple-icon.0ldhg5ovdrppx.png",
+    "native": [
+      180,
+      180
+    ],
+    "final": [
+      180,
+      180
+    ],
+    "improved": true
+  },
+  {
+    "id": "dailymotion",
+    "site": "https://www.dailymotion.com/",
+    "status": 200,
+    "source": "https://static.neon-ssr.dailymotion.com/neon-seo-ssr/static/favicons/apple-icon-precomposed.12ce02f3a914dc2f3d6d.png",
+    "native": [
+      192,
+      192
+    ],
+    "final": [
+      192,
+      192
+    ],
+    "improved": true
+  },
+  {
+    "id": "vimeo",
+    "site": "https://vimeo.com/",
+    "status": 200,
+    "source": "https://f.vimeocdn.com/svg/legacy_view_support/iris_icon_v_64.svg?12efd54dde7bc4920c3a973b64f211b8461343b5",
+    "native": [
+      512,
+      512
+    ],
+    "final": [
+      512,
+      512
+    ],
+    "improved": true
+  },
+  {
+    "id": "amazonmusic",
+    "site": "https://music.amazon.com.br/",
+    "status": 200,
+    "source": "https://m.media-amazon.com/images/G/01/music/logo/1.0/smile_256x256.png",
+    "native": [
+      256,
+      256
+    ],
+    "final": [
+      256,
+      256
+    ],
+    "improved": true
+  },
+  {
+    "id": "soundcloud",
+    "site": "https://soundcloud.com/",
+    "status": 200,
+    "source": "https://soundcloud.com/pwa-round-icon-512x512.png",
+    "native": [
+      512,
+      512
+    ],
+    "final": [
+      512,
+      512
+    ],
+    "improved": true
+  },
+  {
+    "id": "tunein",
+    "site": "https://tunein.com/",
+    "status": 200,
+    "source": "https://cdn-web.tunein.com/assets/img/apple-touch-icon-180.png",
+    "native": [
+      180,
+      180
+    ],
+    "final": [
+      180,
+      180
+    ],
+    "improved": true
+  },
+  {
+    "id": "radiogarden",
+    "site": "https://radio.garden/",
+    "status": 200,
+    "source": "https://radio.garden/public/icons/ios/ios-appicon-180-180.png",
+    "native": [
+      180,
+      180
+    ],
+    "final": [
+      180,
+      180
+    ],
+    "improved": true
+  },
+  {
+    "id": "mixcloud",
+    "site": "https://www.mixcloud.com/",
+    "status": 200,
+    "source": "https://www.mixcloud.com/assets/mix-CS3CZvyo-favicon.ico",
+    "native": [
+      256,
+      256
+    ],
+    "final": [
+      256,
+      256
+    ],
+    "improved": true
+  },
+  {
+    "id": "nasa",
+    "site": "https://plus.nasa.gov/",
+    "status": 200,
+    "source": "https://plus.nasa.gov/wp-content/uploads/2023/03/cropped-nasa-png-placeholder.png?w=192",
+    "native": [
+      192,
+      192
+    ],
+    "final": [
+      192,
+      192
+    ],
+    "improved": true
+  },
+  {
+    "id": "ted",
+    "site": "https://www.ted.com/",
+    "status": 200,
+    "source": "https://www.ted.com/icon.svg",
+    "native": [
+      512,
+      512
+    ],
+    "final": [
+      512,
+      512
+    ],
+    "improved": true
+  },
+  {
+    "id": "dazn",
+    "site": "https://www.dazn.com/pt-BR/home",
+    "status": 200,
+    "source": "https://www.dazn.com/favicon.svg",
+    "native": [
+      512,
+      512
+    ],
+    "final": [
+      512,
+      512
+    ],
+    "improved": true
+  },
+  {
+    "id": "f1tv",
+    "site": "https://f1tv.formula1.com/",
+    "status": 200,
+    "source": "https://f1tv.formula1.com/static/favicon-512x512.png",
+    "native": [
+      512,
+      512
+    ],
+    "final": [
+      512,
+      512
+    ],
+    "improved": true
+  },
+  {
+    "id": "fifa",
+    "site": "https://www.plus.fifa.com/",
+    "status": 200,
+    "source": "https://www.dazn.com/favicon.svg",
+    "native": [
+      512,
+      512
+    ],
+    "final": [
+      512,
+      512
+    ],
+    "improved": true
+  },
+  {
+    "id": "xboxcloud",
+    "site": "https://www.xbox.com/pt-BR/play",
+    "status": 200,
+    "source": "https://assets.play.xbox.com/playxbox/static/media/manifest-icon-512.8ee22594.png",
+    "native": [
+      512,
+      512
+    ],
+    "final": [
+      512,
+      512
+    ],
+    "improved": true
+  },
+  {
+    "id": "geforcenow",
+    "site": "https://play.geforcenow.com/",
+    "status": 200,
+    "source": "https://play.geforcenow.com/mall/assets/icons/GFN-Logo-512.webp",
+    "native": [
+      512,
+      512
+    ],
+    "final": [
+      512,
+      512
+    ],
+    "improved": true
+  },
+  {
+    "id": "airconsole",
+    "site": "https://www.airconsole.com/",
+    "status": 200,
+    "source": null,
+    "native": [
+      48,
+      48
+    ],
+    "final": [
+      48,
+      48
+    ],
+    "improved": false
+  },
+  {
+    "id": "photopea",
+    "site": "https://www.photopea.com/",
+    "status": 200,
+    "source": "https://www.photopea.com/promo/icon512.png",
+    "native": [
+      512,
+      512
+    ],
+    "final": [
+      512,
+      512
+    ],
+    "improved": true
+  },
+  {
+    "id": "archive",
+    "site": "https://archive.org/",
+    "status": 200,
+    "source": "https://archive.org/offshoot_assets/apple-touch-icon.png",
+    "native": [
+      180,
+      180
+    ],
+    "final": [
+      180,
+      180
+    ],
+    "improved": true
+  },
+  {
+    "id": "arte",
+    "site": "https://www.arte.tv/en/",
+    "status": 200,
+    "source": null,
+    "native": null,
+    "final": null,
+    "improved": false
+  },
+  {
+    "id": "rtp",
+    "site": "https://www.rtp.pt/play/",
+    "status": 200,
+    "source": "https://cdn-images.rtp.pt/play/images/apple-touch-icon.png",
+    "native": [
+      180,
+      180
+    ],
+    "final": [
+      180,
+      180
+    ],
+    "improved": true
+  },
+  {
+    "id": "nhk",
+    "site": "https://www3.nhk.or.jp/nhkworld/",
+    "status": 200,
+    "source": "https://www3.nhk.or.jp/nhkworld/common/site_images/nw_webapp.ico",
+    "native": [
+      256,
+      256
+    ],
+    "final": [
+      256,
+      256
+    ],
+    "improved": true
+  },
+  {
+    "id": "france24",
+    "site": "https://www.france24.com/en/live",
+    "status": null,
+    "source": null,
+    "native": null,
+    "final": null,
+    "improved": false
+  },
+  {
+    "id": "dw",
+    "site": "https://www.dw.com/",
+    "status": 200,
+    "source": "https://www.dw.com/images/icons/favicon-180x180.png",
+    "native": [
+      180,
+      180
+    ],
+    "final": [
+      180,
+      180
+    ],
+    "improved": true
+  },
+  {
+    "id": "aljazeera",
+    "site": "https://www.aljazeera.com/live",
+    "status": 200,
+    "source": "https://www.aljazeera.com/apple-touch-icon.png",
+    "native": [
+      152,
+      152
+    ],
+    "final": [
+      152,
+      152
+    ],
+    "improved": true
+  },
+  {
+    "id": "euronews",
+    "site": "https://www.euronews.com/",
+    "status": 200,
+    "source": "https://www.euronews.com/apple-touch-icon.png",
+    "native": [
+      180,
+      180
+    ],
+    "final": [
+      180,
+      180
+    ],
+    "improved": true
+  },
+  {
+    "id": "distro",
+    "site": "https://www.distro.tv/",
+    "status": 200,
+    "source": null,
+    "native": null,
+    "final": null,
+    "improved": false
+  },
+  {
+    "id": "runtime",
+    "site": "https://www.runtime.tv/",
+    "status": 200,
+    "source": "https://www.runtime.tv/themes/custom/run/runtime/favicon.png",
+    "native": [
+      96,
+      96
+    ],
+    "final": [
+      96,
+      96
+    ],
+    "improved": true
+  },
+  {
+    "id": "mytuner",
+    "site": "https://mytuner-radio.com/",
+    "status": 200,
+    "source": "https://static2.mytuner.mobi/static/icons/apple-touch-icon-144x144-precomposed.png",
+    "native": [
+      144,
+      144
+    ],
+    "final": [
+      144,
+      144
+    ],
+    "improved": true
+  },
+  {
+    "id": "jango",
+    "site": "https://www.jango.com/",
+    "status": null,
+    "source": null,
+    "native": null,
+    "final": null,
+    "improved": false
+  },
+  {
+    "id": "qobuz",
+    "site": "https://play.qobuz.com/",
+    "status": 200,
+    "source": "https://play.qobuz.com/favicon.svg",
+    "native": [
+      512,
+      512
+    ],
+    "final": [
+      512,
+      512
+    ],
+    "improved": true
+  },
+  {
+    "id": "tidal",
+    "site": "https://listen.tidal.com/",
+    "status": null,
+    "source": null,
+    "native": null,
+    "final": null,
+    "improved": false
+  },
+  {
+    "id": "duolingo",
+    "site": "https://www.duolingo.com/",
+    "status": 200,
+    "source": "https://d35aaqx5ub95lt.cloudfront.net/images/pwa-icon-circle-512.png",
+    "native": [
+      512,
+      512
+    ],
+    "final": [
+      512,
+      512
+    ],
+    "improved": true
+  },
+  {
+    "id": "coursera",
+    "site": "https://www.coursera.org/",
+    "status": 200,
+    "source": "https://d3njjcbhbojbot.cloudfront.net/web/images/favicons/favicon-v2-194x194.png",
+    "native": [
+      194,
+      194
+    ],
+    "final": [
+      194,
+      194
+    ],
+    "improved": true
+  },
+  {
+    "id": "windy",
+    "site": "https://www.windy.com/",
+    "status": 200,
+    "source": "https://img.windy.com/albums/icons/icon512x512.png",
+    "native": [
+      512,
+      512
+    ],
+    "final": [
+      512,
+      512
+    ],
+    "improved": true
+  },
+  {
+    "id": "openstreetmap",
+    "site": "https://www.openstreetmap.org/",
+    "status": 200,
+    "source": "https://www.openstreetmap.org/assets/tab-icon-07d8c4247610d2f043ac298b3905536230b9615b08e23e69026c8d55790da13b.svg",
+    "native": [
+      512,
+      512
+    ],
+    "final": [
+      512,
+      512
+    ],
+    "improved": true
+  },
+  {
+    "id": "crunchyroll",
+    "site": "https://www.crunchyroll.com/",
+    "status": null,
+    "source": null,
+    "native": null,
+    "final": null,
+    "improved": false
+  },
+  {
+    "id": "hbomax",
+    "site": "https://www.hbomax.com/",
+    "status": 200,
+    "source": "https://www.hbomax.com/dotcom/img/hbomax/favicon.ico",
+    "native": [
+      196,
+      196
+    ],
+    "final": [
+      196,
+      196
+    ],
+    "improved": true
+  },
+  {
+    "id": "netflix",
+    "site": "https://www.netflix.com/browse",
+    "status": 200,
+    "source": "https://assets.nflxext.com/us/ffe/siteui/common/icons/nficon2016.png",
+    "native": [
+      64,
+      64
+    ],
+    "final": [
+      64,
+      64
+    ],
+    "improved": true
+  },
+  {
+    "id": "looke",
+    "site": "https://www.looke.com.br/",
+    "status": 200,
+    "source": "https://www.looke.com.br/content/images/touch-icon-ipad-retina.png",
+    "native": [
+      152,
+      152
+    ],
+    "final": [
+      152,
+      152
+    ],
+    "improved": true
+  },
+  {
+    "id": "kocowa",
+    "site": "https://www.kocowa.com/",
+    "status": 200,
+    "source": null,
+    "native": [
+      64,
+      64
+    ],
+    "final": [
+      64,
+      64
+    ],
+    "improved": false
+  },
+  {
+    "id": "bandplay",
+    "site": "https://bandplay.com/",
+    "status": 200,
+    "source": "https://bandplay.com/pwa/apple-touch-icon/apple-touch-icon-180.png",
+    "native": [
+      180,
+      180
+    ],
+    "final": [
+      180,
+      180
+    ],
+    "improved": true
+  },
+  {
+    "id": "twitch",
+    "site": "https://www.twitch.tv/",
+    "status": 200,
+    "source": "https://www.twitch.tv/apple-touch-icon.png",
+    "native": [
+      180,
+      180
+    ],
+    "final": [
+      180,
+      180
+    ],
+    "improved": true
+  },
+  {
+    "id": "khan",
+    "site": "https://pt.khanacademy.org/",
+    "status": 200,
+    "source": null,
+    "native": [
+      32,
+      32
+    ],
+    "final": [
+      32,
+      32
+    ],
+    "improved": false
+  },
+  {
+    "id": "accu",
+    "site": "https://www.accuradio.com/",
+    "status": 200,
+    "source": null,
+    "native": null,
+    "final": null,
+    "improved": false
+  },
+  {
+    "id": "karafun",
+    "site": "https://www.karafun.com/web/",
+    "status": 200,
+    "source": null,
+    "native": null,
+    "final": null,
+    "improved": false
+  }
+]

@@ -1,0 +1,59 @@
+#!/bin/sh
+# AURA7_AUTO_V1: servico de usuario Batocera 43.1, X11.
+BASE=/userdata/system/aura-neon-runtime
+WRAPPER=/usr/bin/emulationstation-standalone
+case "${1:-}" in
+ stop) exit 0 ;; # O S31 original encerra a sessao no desligamento.
+ status) test -f "$BASE/enabled" && echo 'AURA habilitado para proximo boot'; exit 0 ;;
+ start) ;;
+ *) exit 2 ;;
+esac
+[ -f "$BASE/enabled" ] || exit 0
+[ ! -e /boot/AURA-NEON-DESATIVAR ] || exit 0
+[ ! -e /tmp/aura7-teste-grafico.lock ] || exit 0
+# Uma tentativa por boot evita takeover repetido de uma sessao em uso.
+mkdir /tmp/aura-neon-started 2>/dev/null || exit 0
+exec >> "$BASE/startup.log" 2>&1
+date
+(cd "$BASE" && sha256sum -c binary.sha256) || exit 0
+
+# Aguarda o inicializador original e aproveita somente variaveis graficas.
+attempt=0
+while :; do
+    wrapper_pid=$(pgrep -f '^(/bin/bash |/bin/sh |bash |sh )?/usr/bin/emulationstation-standalone( |$)' | head -n 1)
+    original_pid=$(pgrep -f '^(/usr/bin/)?emulationstation( |$)' | head -n 1)
+    [ -n "$wrapper_pid" ] && [ -n "$original_pid" ] && break
+    attempt=$((attempt + 1))
+    [ "$attempt" -lt 45 ] || { echo 'Sessao original nao encontrada; sem alteracoes.'; exit 0; }
+    sleep 1
+done
+DISPLAY=''
+WAYLAND_DISPLAY=''
+tr '\000' '\n' < "/proc/$original_pid/environ" > /tmp/aura-neon-started/environment || exit 0
+while IFS= read -r entry; do
+    case "$entry" in
+        DISPLAY=*|XAUTHORITY=*|XDG_RUNTIME_DIR=*|WAYLAND_DISPLAY=*|PULSE_SERVER=*|LANG=*|LC_ALL=*)
+            export "$entry" ;;
+    esac
+done < /tmp/aura-neon-started/environment
+[ -n "$DISPLAY" ] && [ -z "$WAYLAND_DISPLAY" ] || { echo 'Sessao nao X11; original mantido.'; exit 0; }
+# Confirma a identidade antes de enviar sinal a um PID observado.
+[ "$(readlink "/proc/$original_pid/exe")" = /usr/bin/emulationstation ] || exit 0
+[ -f "$BASE/enabled" ] && [ ! -e /boot/AURA-NEON-DESATIVAR ] || exit 0
+"$WRAPPER" --stop-rebooting || exit 0
+kill -TERM "$original_pid" 2>/dev/null || true
+attempt=0
+while kill -0 "$original_pid" 2>/dev/null || kill -0 "$wrapper_pid" 2>/dev/null; do
+    attempt=$((attempt + 1))
+    if [ "$attempt" -ge 20 ]; then
+        touch /var/run/emulationstation-standalone
+        echo 'Encerramento demorou; takeover cancelado, sem SIGKILL.'
+        exit 0
+    fi
+    sleep 1
+done
+export HOME=/userdata/system
+# Mantem video/audio/DBus/retorno nativos do wrapper; apenas PATH privado.
+export PATH="$BASE/dispatch:$PATH"
+nohup "$WRAPPER" >> "$BASE/session.log" 2>&1 </dev/null &
+echo 'Inicializador nativo iniciado com dispatcher AURA privado.'

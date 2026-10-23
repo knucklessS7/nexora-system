@@ -1,0 +1,19 @@
+#!/bin/sh
+# AURA7_AUTO_V1: dispatcher privado, nunca instalado em /usr/bin.
+BASE=/userdata/system/aura-neon-runtime
+if [ ! -f "$BASE/enabled" ] || [ -e /boot/AURA-NEON-DESATIVAR ]; then
+    exec /usr/bin/emulationstation "$@"
+fi
+if ! (cd "$BASE" && sha256sum -c binary.sha256 >/dev/null 2>&1); then
+    mv "$BASE/enabled" "$BASE/disabled-integrity" 2>/dev/null || true
+    exec /usr/bin/emulationstation "$@"
+fi
+"$BASE/bin/emulationstation" "$@"
+result=$?
+if [ "$result" -ne 0 ]; then
+    # Falha observavel: bloqueia novas tentativas automaticas ate reativacao.
+    mv "$BASE/enabled" "$BASE/disabled-after-failure" 2>/dev/null || true
+    printf 'AURA falhou (%s); usando original.\n' "$result" >&2
+    exec /usr/bin/emulationstation "$@"
+fi
+exit 0

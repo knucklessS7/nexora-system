@@ -1,0 +1,51 @@
+#!/bin/bash
+set -eu
+BASE=/userdata/system/batocera-smart-remote
+PID="$BASE/run/pid"
+running() {
+  [ -f "$PID" ] || return 1
+  task_pid=$(cat "$PID")
+  [[ "$task_pid" =~ ^[0-9]+$ ]] || return 1
+  [ -r "/proc/$task_pid/cmdline" ] || return 1
+  tr '\0' ' ' < "/proc/$task_pid/cmdline" | grep -Fq "$BASE/server/main.py"
+}
+ready() {
+  running || return 1
+  python3 - "$BASE/run/admin.sock" <<'PYREADY'
+import socket,json,sys
+try:
+ with socket.socket(socket.AF_UNIX) as sock:
+  sock.settimeout(1);sock.connect(sys.argv[1]);sock.sendall(b'{"action":"status"}\n')
+  data=json.loads(sock.makefile('r').readline())
+  assert 'sessions' in data
+except Exception:sys.exit(1)
+PYREADY
+}
+case "${1:-status}" in
+ start)
+  ready && exit 0
+  if running; then
+    for n in {1..30}; do ready && exit 0; sleep .2; done
+    echo "Servico existente nao respondeu." >&2; exit 1
+  fi
+  mkdir -p "$BASE/logs" "$BASE/run"
+  chmod 700 "$BASE/run"
+  export DISPLAY=:0
+  nohup python3 "$BASE/server/main.py" >>"$BASE/logs/startup.log" 2>&1 </dev/null &
+  for n in {1..30}; do
+    ready && exit 0
+    sleep .2
+  done
+  echo 'Falha ao iniciar; consulte logs/startup.log.' >&2; exit 1
+  ;;
+ stop)
+  if running; then
+    kill -TERM "$task_pid"
+    for n in {1..40}; do running || exit 0; sleep .2; done
+    echo 'Processo não encerrou; sem kill forçado.' >&2; exit 1
+  fi
+  ;;
+ restart) "$0" stop; "$0" start ;;
+ status) ready ;;
+ *) exit 2 ;;
+esac
